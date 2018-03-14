@@ -6,13 +6,15 @@
 
 @value tsblue: #2AA7DD;
 
+@value tsdarkgray: #888;
+
 @value tsgray: #D0D2D3;
 
 body {
     margin: 0;
     padding: 0;
+    font: 400 110%/1.2 "GTPressuraMono", "Helvetica Neue", Arial;
     background: tsgray;
-    font-family: "GTPressuraMono", "Monaco", "Courier", monospace;
 }
 
 * {
@@ -22,12 +24,19 @@ body {
 
 .App {}
 
+.Switcher {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 .Header {
     text-align: center;
     background: dark;
     color: light;
     position: fixed;
-    bottom: 0;
+    bottom: -1px;
+    border-top: 2px solid #2a4958;
     left: 0;
     width: 100%;
     height: 40px;
@@ -53,13 +62,13 @@ body {
 
 .logo {
     display: inline-block;
-    width: 2em;
-    height: 2em;
-    margin-top: 0.2em;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.4em;
 }
 
 .BlockList {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -70,14 +79,40 @@ h2 {
 
 .Block {
     overflow: hidden;
-    border-top: 1px solid tsgray;
     background: light;
+    width: 96%;
+    margin: auto auto 3px auto;
+    transition: all linear 0.5s;
+    border-top: 1px solid tsdarkgray;
+}
+
+.Block.abovefold {
+    opacity: 0.2;
+    border-color: #888;
+}
+
+.Block.belowfold {
+}
+
+.Block .placeholder {
+    position: fixed;
+    font-size: 0.8em;
+    padding-left: 1em;
+    bottom: 0;
+    left: 0;
+    border-top: 0px;
+    height: 0px;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    width: 100%;
+    z-index: 100;
     transition: height linear 0.5s;
 }
 
-.Block.collapsed {
-    opacity: 0.2;
-    border-color: #888;
+.Block.belowfold .placeholder {
+    border-top: 2px solid tsgray;
+    height: 20px;
 }
 
 .Block ol {
@@ -90,23 +125,23 @@ h2 {
     display: table-row;
 }
 
-.Block div {
+.Cell {
     display: table-cell;
     vertical-align: middle;
-    padding-bottom: 2px;
+    padding: 2px 0 2px 0;
     position: relative;
 }
 
-.Block .Cell--Route {
+.Cell--Route {
     width: 15%;
 }
 
-.Block .Cell--Destination {
+.Cell--Destination {
     width: 80%;
-    font-family: National;
+    font-family: National, Helvetica Neue, Arial;
 }
 
-.Block .Cell--Prediction {
+.Cell--Prediction {
     width: 15%;
     min-width: 6em;
 }
@@ -115,14 +150,27 @@ h2 {
     font-size: 1.2em;
     word-spacing: -0.3em;
     font-weight: 400;
+    width: 75%;
+    text-align: right;
+    float: left;
 }
 
 .label {
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 0.8em;
-    color: #aaa;
+    float: left;
+    width: 25%;
+}
+
+.label span {
+    color: tsdarkgray;
+    font-size: 0.6em;
+    float: right;
+    padding: 0.2em 0.2em 0 0;
+}
+
+.predictions span {
+    display: inline-block;
+    width: 1.5em;
+    text-align: right;
 }
 
 .route-name {

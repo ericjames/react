@@ -1,9 +1,8 @@
 import React, {
     Component
 } from 'react';
-import ReactDOM from 'react-dom';
-import './App.css';
 import tslogo from './ts_square.svg';
+import theme1 from './theme1.css';
 
 // const blocks = [{
 //     mode: "Rail",
@@ -13,7 +12,7 @@ import tslogo from './ts_square.svg';
 //     id: 2,
 // }]
 
-var _userLat = null;
+var _userLat = null
 var _userLng = null;
 
 class App extends Component {
@@ -95,24 +94,40 @@ function getUserLocation(callback) {
 
 function Header() {
     return (
-        <div className="Header"><div className="title">Nearby</div><img className="logo" src={tslogo} /></div>
+        <div className="Header">
+                <div className="title">Nearby</div>
+                <img className="logo" src={tslogo} />
+        </div>
     )
 }
 
 function BlockList(props) {
-    let blocklist = props.blocks.map((blockData) => {
-        if (blockData.display_class === 'masstransit') {
-            return <Block key={blockData.id} blockData={blockData}></Block>
+    let blocks = filterBlocks(props.blocks);
+    if (blocks.length > 0) {
+        let count = blocks.length;
+        let blocklist = blocks.map((blockData, i) => {
+            let placeholderPosition = count - i;
+            return <Block key={blockData.id} placeholderPosition={placeholderPosition} blockData={blockData}></Block>
+        })
+        return (
+            <div className="BlockList">
+                <div className="caption">Nearby transit stops to you ↓</div>
+                {blocklist}
+                <div className="caption footer">That's all!</div>
+            </div>
+        )
+    }
+    return false
+}
+
+function filterBlocks(blocks) {
+    let out = [];
+    blocks.map((block, i) => {
+        if (block.display_class == 'masstransit') {
+            out.push(block);
         }
-        return false;
-    })
-    return (
-        <div className="BlockList">
-            <div class="caption">Nearby transit stops to you ↓</div>
-            {blocklist}
-            <div class="caption footer">That's all!</div>
-        </div>
-    )
+    });
+    return out;
 }
 
 class Block extends Component {
@@ -143,23 +158,27 @@ class Block extends Component {
 
         if (offsetTop < 30) {
             this.setState({
-                newHeight: 100
+                classNames: 'Block abovefold'
             });
+        } else if (offsetTop > 500) {
             this.setState({
-                classNames: 'Block collapsed'
+                classNames: 'Block belowfold'
             });
         } else {
             this.setState({
                 classNames: 'Block'
             });
-            this.setState({
-                newHeight: this.state.originalHeight
-            });
         }
 
-        if (offsetBottom < 30) {
-
-        }
+        // if (offsetTop < 300) {
+        //     this.setState({
+        //         newHeight: this.state.originalHeight
+        //     });
+        // } else {
+        //     this.setState({
+        //         newHeight: 40
+        //     });
+        // }
     }
     render() {
         var rowList = [];
@@ -170,11 +189,13 @@ class Block extends Component {
                 rowList.push(<Row key={i} rowData={combined[i]}></Row>)
             };
         }
+        var bottomPosition = (this.props.placeholderPosition + 1) * 20 + 'px';
         return <div ref={(el) => this.instance = el } style={{height: this.state.newHeight + 'px'}} className={this.state.classNames}>
               <h2>{this.props.blockData.title}</h2>
               <ol>
               {rowList}
               </ol>
+                <div className="placeholder" style={{bottom: bottomPosition}}>{this.props.blockData.title}</div>
             </div>
     }
 }
@@ -193,7 +214,7 @@ function Row(props) {
      </div>
     <div className="Cell Cell--Prediction">
         <Predictions predictions={row.predictions}></Predictions>
-        <span className="label">min</span>
+        <div className="label"><span>min</span></div>
      </div>
   </li>
 
@@ -204,9 +225,9 @@ function Predictions(props) {
 
     let list = predictions.map((numeral, i) => {
         if (i == predictions.length - 1) {
-            return <span>{numeral}</span>
+            return <span key={i}>{numeral}</span>
         } else if (i < 1) {
-            return <span>{numeral}, </span>
+            return <span key={i}>{numeral}, </span>
         }
     });
 
