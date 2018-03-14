@@ -1,0 +1,1442 @@
+{
+    "blocks": [{
+        "title": "Farragut North",
+        "id": 23833,
+        "column": 1,
+        "order": 1,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "612cee6455b0b2e14c4d6a388735cc39",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "35": {
+                "id": 35,
+                "full_name": "Washington Metropolitan Area Transit Authority",
+                "short_name": "Metrorail",
+                "mode": "subway",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"44px\" height=\"50px\" viewBox=\"0 0 44 50\"> <path fill=\"#231F20\" stroke=\"#FFFFFF\" d=\"M7.4,49C3.9,49,1,46.2,1,42.8V7.3C1,3.8,3.9,1,7.4,1h29.3C40.1,1,43,3.8,43,7.2v35.7 c0,3.5-2.9,6.2-6.4,6.2H7.4L7.4,49z\"/> <path fill=\"#FFFFFF\" d=\"M6,4v32.2h6.4V13.9l6.4,22.3h6.4l6.4-22.3v22.3H38V4h-9.5L22,25.4L15.5,4H6z M23.8,37.8v1.8h-1v1.2h1v2.1 c0,2.1,0.1,2.2,0.2,2.4c0.2,0.3,0.5,0.4,0.9,0.5c0.5,0.1,1.1,0.1,1.5,0.1l0.3-0.1v-1.2h-0.4c-0.4,0-0.5,0-0.7-0.1 c-0.1-0.2-0.1-0.2-0.1-2l-0.1-1.7h1.3v-1.2h-1.3v-1.8H23.8z M34.8,39.6c-1.1,0-2.2,0.4-2.7,1.4c-0.7,1.3-0.5,3,0.4,4.1 c1.3,1.2,3.3,1.2,4.6,0c1-1.1,1.1-2.8,0.4-4.1C37,39.9,35.9,39.7,34.8,39.6z M19.4,39.6c-1.8,0.1-3,1.3-3,3.2c0,1.5,0.8,2.7,2.3,3.1 c0.5,0.1,1.5,0.1,2.1-0.1c0.5-0.2,1.1-0.7,1.4-1.3c0.1-0.2,0.2-0.5,0.2-0.5H21c-0.3,0.5-0.7,0.7-1.4,0.7c-0.7,0-1.5-0.7-1.5-1.5h4.3 C22.4,41.3,21.3,39.6,19.4,39.6L19.4,39.6z M9.4,39.6c-0.6,0-1.3,0.1-1.7,0.6c-0.1,0.2-0.2,0.3-0.3,0.3v-0.9H6v6.2h1.6v-2.1 c0-1.9,0-2,0.2-2.3c0.3-0.5,0.7-0.8,1.3-0.7c0.3,0.1,0.6,0.3,0.7,0.7c0,0.1,0.1,1.1,0.1,2.3v2.1h1.7v-2.2c0-2,0-2.1,0.2-2.4 c0.1-0.1,0.2-0.3,0.4-0.3c0.3-0.2,0.9-0.2,1.2,0c0.4,0.2,0.4,0.3,0.4,2.7v2.2h1.7v-2.5c0-2.3,0-2.4-0.2-2.7c-0.4-0.9-1.1-1-2-1.1 c-0.8,0-1.1,0.1-1.6,0.6l-0.4,0.3L11,40.2C10.7,39.8,10.1,39.6,9.4,39.6z M31.4,39.6H31c-0.7,0-1.3,0.3-1.7,0.9l-0.2,0.3v-1.2h-1.6 v6.2h1.7v-1.6c0-1.8,0-2.2,0.3-2.6c0.4-0.5,0.7-0.6,1.4-0.6h0.5V39.6z M36.3,43.1c-0.1,2.1-2.7,2-2.9,0C33,40,36.6,39.8,36.3,43.1z M20.6,42H18C18.2,40.3,20.5,40.3,20.6,42z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Silver Spring",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 1,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "0e04bebe522263fccf92c3da3ea73adf",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Shady Grove",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 2,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "53119b65879b8e665c168cce0274fabe",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Glenmont",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 4,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "9425b741fd9f8aef34386457111d7468",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Shady Grove",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 6,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "53119b65879b8e665c168cce0274fabe",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Silver Spring",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 11,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "0e04bebe522263fccf92c3da3ea73adf",
+            "text_color": "white",
+            "agency_id": 35
+        }],
+        "alerts": null
+    }, {
+        "title": "Dupont Circle",
+        "id": 23834,
+        "column": 1,
+        "order": 2,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "bec55881a2ab5c0941543090b44f6c00",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "35": {
+                "id": 35,
+                "full_name": "Washington Metropolitan Area Transit Authority",
+                "short_name": "Metrorail",
+                "mode": "subway",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"44px\" height=\"50px\" viewBox=\"0 0 44 50\"> <path fill=\"#231F20\" stroke=\"#FFFFFF\" d=\"M7.4,49C3.9,49,1,46.2,1,42.8V7.3C1,3.8,3.9,1,7.4,1h29.3C40.1,1,43,3.8,43,7.2v35.7 c0,3.5-2.9,6.2-6.4,6.2H7.4L7.4,49z\"/> <path fill=\"#FFFFFF\" d=\"M6,4v32.2h6.4V13.9l6.4,22.3h6.4l6.4-22.3v22.3H38V4h-9.5L22,25.4L15.5,4H6z M23.8,37.8v1.8h-1v1.2h1v2.1 c0,2.1,0.1,2.2,0.2,2.4c0.2,0.3,0.5,0.4,0.9,0.5c0.5,0.1,1.1,0.1,1.5,0.1l0.3-0.1v-1.2h-0.4c-0.4,0-0.5,0-0.7-0.1 c-0.1-0.2-0.1-0.2-0.1-2l-0.1-1.7h1.3v-1.2h-1.3v-1.8H23.8z M34.8,39.6c-1.1,0-2.2,0.4-2.7,1.4c-0.7,1.3-0.5,3,0.4,4.1 c1.3,1.2,3.3,1.2,4.6,0c1-1.1,1.1-2.8,0.4-4.1C37,39.9,35.9,39.7,34.8,39.6z M19.4,39.6c-1.8,0.1-3,1.3-3,3.2c0,1.5,0.8,2.7,2.3,3.1 c0.5,0.1,1.5,0.1,2.1-0.1c0.5-0.2,1.1-0.7,1.4-1.3c0.1-0.2,0.2-0.5,0.2-0.5H21c-0.3,0.5-0.7,0.7-1.4,0.7c-0.7,0-1.5-0.7-1.5-1.5h4.3 C22.4,41.3,21.3,39.6,19.4,39.6L19.4,39.6z M9.4,39.6c-0.6,0-1.3,0.1-1.7,0.6c-0.1,0.2-0.2,0.3-0.3,0.3v-0.9H6v6.2h1.6v-2.1 c0-1.9,0-2,0.2-2.3c0.3-0.5,0.7-0.8,1.3-0.7c0.3,0.1,0.6,0.3,0.7,0.7c0,0.1,0.1,1.1,0.1,2.3v2.1h1.7v-2.2c0-2,0-2.1,0.2-2.4 c0.1-0.1,0.2-0.3,0.4-0.3c0.3-0.2,0.9-0.2,1.2,0c0.4,0.2,0.4,0.3,0.4,2.7v2.2h1.7v-2.5c0-2.3,0-2.4-0.2-2.7c-0.4-0.9-1.1-1-2-1.1 c-0.8,0-1.1,0.1-1.6,0.6l-0.4,0.3L11,40.2C10.7,39.8,10.1,39.6,9.4,39.6z M31.4,39.6H31c-0.7,0-1.3,0.3-1.7,0.9l-0.2,0.3v-1.2h-1.6 v6.2h1.7v-1.6c0-1.8,0-2.2,0.3-2.6c0.4-0.5,0.7-0.6,1.4-0.6h0.5V39.6z M36.3,43.1c-0.1,2.1-2.7,2-2.9,0C33,40,36.6,39.8,36.3,43.1z M20.6,42H18C18.2,40.3,20.5,40.3,20.6,42z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Glenmont",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 2,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "9425b741fd9f8aef34386457111d7468",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Shady Grove",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 2,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "53119b65879b8e665c168cce0274fabe",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Shady Grove",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 8,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "53119b65879b8e665c168cce0274fabe",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Silver Spring",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 9,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "0e04bebe522263fccf92c3da3ea73adf",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Glenmont",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 14,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "9425b741fd9f8aef34386457111d7468",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Shady Grove",
+            "full_route": "RD",
+            "short_route": "RD",
+            "prediction": 14,
+            "route_color": "#c8301d",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "53119b65879b8e665c168cce0274fabe",
+            "text_color": "white",
+            "agency_id": 35
+        }],
+        "alerts": null
+    }, {
+        "title": "Farragut West",
+        "id": 23835,
+        "column": 1,
+        "order": 3,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "ba8b75ec8f203dccdbbd8fdac6fb4382",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "35": {
+                "id": 35,
+                "full_name": "Washington Metropolitan Area Transit Authority",
+                "short_name": "Metrorail",
+                "mode": "subway",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"44px\" height=\"50px\" viewBox=\"0 0 44 50\"> <path fill=\"#231F20\" stroke=\"#FFFFFF\" d=\"M7.4,49C3.9,49,1,46.2,1,42.8V7.3C1,3.8,3.9,1,7.4,1h29.3C40.1,1,43,3.8,43,7.2v35.7 c0,3.5-2.9,6.2-6.4,6.2H7.4L7.4,49z\"/> <path fill=\"#FFFFFF\" d=\"M6,4v32.2h6.4V13.9l6.4,22.3h6.4l6.4-22.3v22.3H38V4h-9.5L22,25.4L15.5,4H6z M23.8,37.8v1.8h-1v1.2h1v2.1 c0,2.1,0.1,2.2,0.2,2.4c0.2,0.3,0.5,0.4,0.9,0.5c0.5,0.1,1.1,0.1,1.5,0.1l0.3-0.1v-1.2h-0.4c-0.4,0-0.5,0-0.7-0.1 c-0.1-0.2-0.1-0.2-0.1-2l-0.1-1.7h1.3v-1.2h-1.3v-1.8H23.8z M34.8,39.6c-1.1,0-2.2,0.4-2.7,1.4c-0.7,1.3-0.5,3,0.4,4.1 c1.3,1.2,3.3,1.2,4.6,0c1-1.1,1.1-2.8,0.4-4.1C37,39.9,35.9,39.7,34.8,39.6z M19.4,39.6c-1.8,0.1-3,1.3-3,3.2c0,1.5,0.8,2.7,2.3,3.1 c0.5,0.1,1.5,0.1,2.1-0.1c0.5-0.2,1.1-0.7,1.4-1.3c0.1-0.2,0.2-0.5,0.2-0.5H21c-0.3,0.5-0.7,0.7-1.4,0.7c-0.7,0-1.5-0.7-1.5-1.5h4.3 C22.4,41.3,21.3,39.6,19.4,39.6L19.4,39.6z M9.4,39.6c-0.6,0-1.3,0.1-1.7,0.6c-0.1,0.2-0.2,0.3-0.3,0.3v-0.9H6v6.2h1.6v-2.1 c0-1.9,0-2,0.2-2.3c0.3-0.5,0.7-0.8,1.3-0.7c0.3,0.1,0.6,0.3,0.7,0.7c0,0.1,0.1,1.1,0.1,2.3v2.1h1.7v-2.2c0-2,0-2.1,0.2-2.4 c0.1-0.1,0.2-0.3,0.4-0.3c0.3-0.2,0.9-0.2,1.2,0c0.4,0.2,0.4,0.3,0.4,2.7v2.2h1.7v-2.5c0-2.3,0-2.4-0.2-2.7c-0.4-0.9-1.1-1-2-1.1 c-0.8,0-1.1,0.1-1.6,0.6l-0.4,0.3L11,40.2C10.7,39.8,10.1,39.6,9.4,39.6z M31.4,39.6H31c-0.7,0-1.3,0.3-1.7,0.9l-0.2,0.3v-1.2h-1.6 v6.2h1.7v-1.6c0-1.8,0-2.2,0.3-2.6c0.4-0.5,0.7-0.6,1.4-0.6h0.5V39.6z M36.3,43.1c-0.1,2.1-2.7,2-2.9,0C33,40,36.6,39.8,36.3,43.1z M20.6,42H18C18.2,40.3,20.5,40.3,20.6,42z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Vienna/Fairfax-GMU",
+            "full_route": "OR",
+            "short_route": "OR",
+            "prediction": 0,
+            "route_color": "#efaa49",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "dcb438abe90e602a4bdcabf9b16e7b4e",
+            "text_color": "black",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Franconia-Springfield",
+            "full_route": "BL",
+            "short_route": "BL",
+            "prediction": 2,
+            "route_color": "#3f8cda",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "81b031236a7758a6c1940054621c096e",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Largo Town Center",
+            "full_route": "BL",
+            "short_route": "BL",
+            "prediction": 3,
+            "route_color": "#3f8cda",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "ff9e5ecddac5a3f1b2c9e5d74dbb9253",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Largo Town Center",
+            "full_route": "SV",
+            "short_route": "SV",
+            "prediction": 7,
+            "route_color": "#757575",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "d863c9e76e25df4d38880bc2d6743d97",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "Wiehle-Reston East",
+            "full_route": "SV",
+            "short_route": "SV",
+            "prediction": 8,
+            "route_color": "#757575",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "38e6a7aa69986f6e565fd68b6e52a833",
+            "text_color": "white",
+            "agency_id": 35
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "subway",
+            "destination": "New Carrollton",
+            "full_route": "OR",
+            "short_route": "OR",
+            "prediction": 12,
+            "route_color": "#efaa49",
+            "text_route": "white",
+            "direction": null,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "5e1a95e9e5949317cfcf05a69276d609",
+            "text_color": "black",
+            "agency_id": 35
+        }],
+        "alerts": null
+    }, {
+        "title": "",
+        "id": 29883,
+        "column": 1,
+        "order": 14,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "de1868629e106cb2f46c7c6a527fc587",
+        "api_error": false,
+        "name": "StaticText",
+        "display_class": "static-text",
+        "text": "<a href=\"https://transitscreendev-pr-4531.herokuapp.com/go/auto\">TS GO Beta</a>",
+        "latitude": 38.904969999999999,
+        "longitude": -77.039659999999998,
+        "theme_id": 1,
+        "screen_id": 2520,
+        "timezone": "America/New_York"
+    }, {
+        "title": "Connecticut Ave & M St NW",
+        "id": 23836,
+        "column": 2,
+        "order": 2,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "9ddc4fde20b8732a75a41f6399229312",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "34": {
+                "id": 34,
+                "full_name": "Washington Metropolitan Area Transit Authority",
+                "short_name": "Metrobus",
+                "mode": "bus",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"39px\" height=\"50px\" viewBox=\"0 0 39 50\"> <path fill=\"#065894\" d=\"M1.7,0h35.7C38.3,0,39,0.8,39,1.7v46.6c0,0.9-0.7,1.7-1.6,1.7H1.7C0.8,50,0,49.2,0,48.3V1.7 C0,0.8,0.8,0,1.7,0z\"/> <path fill=\"#FFFFFF\" d=\"M3.3,3v32.7h6.5V13l6.5,22.7h6.5L29.3,13v22.7h6.5V3h-9.7l-6.5,21.8L13,3H3.3z M21.4,37.3v1.8h-1v1.2h1v2.1 c0,2.1,0.1,2.2,0.2,2.4c0.2,0.3,0.5,0.4,0.9,0.5c0.5,0.1,1.1,0.1,1.5,0.1l0.3-0.1v-1.2h-0.4c-0.4,0-0.5,0-0.7-0.1 c-0.1-0.2-0.1-0.2-0.1-2L23,40.3h1.3v-1.2H23v-1.8H21.4z M32.6,39.1c-1.1,0-2.2,0.4-2.7,1.4c-0.7,1.3-0.5,3,0.4,4.1 c1.3,1.2,3.4,1.2,4.7,0c1-1.1,1.1-2.8,0.4-4.1C34.8,39.4,33.7,39.2,32.6,39.1z M16.9,39.1c-1.8,0.1-3.1,1.3-3.1,3.2 c0,1.5,0.8,2.7,2.3,3.1c0.5,0.1,1.5,0.1,2.1-0.1c0.5-0.2,1.1-0.7,1.4-1.3c0.1-0.2,0.2-0.5,0.2-0.5h-1.4c-0.3,0.5-0.7,0.7-1.4,0.7 s-1.5-0.7-1.5-1.5h4.4C20,40.8,18.9,39.1,16.9,39.1L16.9,39.1z M6.8,39.1c-0.6,0-1.3,0.1-1.7,0.6C5,39.9,4.9,40,4.8,40l0-0.9H3.3 v6.3h1.6v-2.1c0-1.9,0-2,0.2-2.3c0.3-0.5,0.7-0.8,1.3-0.7C6.7,40.4,7,40.6,7.1,41c0,0.1,0.1,1.1,0.1,2.3v2.1h1.7l0-2.2 c0-2,0-2.1,0.2-2.4c0.1-0.1,0.2-0.3,0.4-0.3c0.3-0.2,0.9-0.2,1.2,0c0.4,0.2,0.4,0.3,0.4,2.7v2.2h1.7v-2.5c0-2.3,0-2.4-0.2-2.7 c-0.4-0.9-1.1-1-2-1.1c-0.8,0-1.1,0.1-1.6,0.6L8.6,40l-0.2-0.3C8.1,39.3,7.5,39.1,6.8,39.1z M29.1,39.1h-0.4c-0.7,0-1.3,0.3-1.7,0.9 l-0.2,0.3v-1.2h-1.6v6.3h1.7v-1.6c0-1.8,0-2.2,0.3-2.6c0.4-0.5,0.7-0.6,1.4-0.6h0.5V39.1z M34.1,42.7c-0.1,2.1-2.7,2-2.9,0 C30.8,39.5,34.4,39.3,34.1,42.7z M18.2,41.6h-2.7C15.7,39.8,18,39.8,18.2,41.6z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Friendship Heights",
+            "direction": "Westbound",
+            "full_route": "West to Friendship Heights",
+            "short_route": "N2",
+            "prediction": 4,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "51bb136d5ea0085637663e50d2094714",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Chevy Chase Circle",
+            "direction": "Northbound",
+            "full_route": "North to Chevy Chase Circle",
+            "short_route": "L2",
+            "prediction": 8,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a0294ca9981d26c8667950f15eab1fe2",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Mt Pleasant Via Adams Morgan",
+            "direction": "Northbound",
+            "full_route": "North to Mt Pleasant Via Adams Morgan",
+            "short_route": "42",
+            "prediction": 13,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "656737a8e8eb8df2ff5a904a35abb7b5",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Friendship Heights",
+            "direction": "Westbound",
+            "full_route": "West to Friendship Heights",
+            "short_route": "N4",
+            "prediction": 19,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "6286986ecca1bb971d3e20bc657b56cf",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Mt Pleasant Via Adams Morgan",
+            "direction": "Northbound",
+            "full_route": "North to Mt Pleasant Via Adams Morgan",
+            "short_route": "42",
+            "prediction": 27,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "656737a8e8eb8df2ff5a904a35abb7b5",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Chevy Chase Circle",
+            "direction": "Northbound",
+            "full_route": "North to Chevy Chase Circle",
+            "short_route": "L2",
+            "prediction": 28,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a0294ca9981d26c8667950f15eab1fe2",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Friendship Heights",
+            "direction": "Westbound",
+            "full_route": "West to Friendship Heights",
+            "short_route": "N2",
+            "prediction": 36,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "51bb136d5ea0085637663e50d2094714",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + M St Nw",
+            "destination": "Mt Pleasant Via Adams Morgan",
+            "direction": "Northbound",
+            "full_route": "North to Mt Pleasant Via Adams Morgan",
+            "short_route": "42",
+            "prediction": 37,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "656737a8e8eb8df2ff5a904a35abb7b5",
+            "agency_id": 34
+        }],
+        "alerts": null
+    }, {
+        "title": "Connecticut Ave & L St NW",
+        "id": 23837,
+        "column": 2,
+        "order": 3,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "afa2f60b626ae16744ecf4e32e4c499e",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "34": {
+                "id": 34,
+                "full_name": "Washington Metropolitan Area Transit Authority",
+                "short_name": "Metrobus",
+                "mode": "bus",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"39px\" height=\"50px\" viewBox=\"0 0 39 50\"> <path fill=\"#065894\" d=\"M1.7,0h35.7C38.3,0,39,0.8,39,1.7v46.6c0,0.9-0.7,1.7-1.6,1.7H1.7C0.8,50,0,49.2,0,48.3V1.7 C0,0.8,0.8,0,1.7,0z\"/> <path fill=\"#FFFFFF\" d=\"M3.3,3v32.7h6.5V13l6.5,22.7h6.5L29.3,13v22.7h6.5V3h-9.7l-6.5,21.8L13,3H3.3z M21.4,37.3v1.8h-1v1.2h1v2.1 c0,2.1,0.1,2.2,0.2,2.4c0.2,0.3,0.5,0.4,0.9,0.5c0.5,0.1,1.1,0.1,1.5,0.1l0.3-0.1v-1.2h-0.4c-0.4,0-0.5,0-0.7-0.1 c-0.1-0.2-0.1-0.2-0.1-2L23,40.3h1.3v-1.2H23v-1.8H21.4z M32.6,39.1c-1.1,0-2.2,0.4-2.7,1.4c-0.7,1.3-0.5,3,0.4,4.1 c1.3,1.2,3.4,1.2,4.7,0c1-1.1,1.1-2.8,0.4-4.1C34.8,39.4,33.7,39.2,32.6,39.1z M16.9,39.1c-1.8,0.1-3.1,1.3-3.1,3.2 c0,1.5,0.8,2.7,2.3,3.1c0.5,0.1,1.5,0.1,2.1-0.1c0.5-0.2,1.1-0.7,1.4-1.3c0.1-0.2,0.2-0.5,0.2-0.5h-1.4c-0.3,0.5-0.7,0.7-1.4,0.7 s-1.5-0.7-1.5-1.5h4.4C20,40.8,18.9,39.1,16.9,39.1L16.9,39.1z M6.8,39.1c-0.6,0-1.3,0.1-1.7,0.6C5,39.9,4.9,40,4.8,40l0-0.9H3.3 v6.3h1.6v-2.1c0-1.9,0-2,0.2-2.3c0.3-0.5,0.7-0.8,1.3-0.7C6.7,40.4,7,40.6,7.1,41c0,0.1,0.1,1.1,0.1,2.3v2.1h1.7l0-2.2 c0-2,0-2.1,0.2-2.4c0.1-0.1,0.2-0.3,0.4-0.3c0.3-0.2,0.9-0.2,1.2,0c0.4,0.2,0.4,0.3,0.4,2.7v2.2h1.7v-2.5c0-2.3,0-2.4-0.2-2.7 c-0.4-0.9-1.1-1-2-1.1c-0.8,0-1.1,0.1-1.6,0.6L8.6,40l-0.2-0.3C8.1,39.3,7.5,39.1,6.8,39.1z M29.1,39.1h-0.4c-0.7,0-1.3,0.3-1.7,0.9 l-0.2,0.3v-1.2h-1.6v6.3h1.7v-1.6c0-1.8,0-2.2,0.3-2.6c0.4-0.5,0.7-0.6,1.4-0.6h0.5V39.1z M34.1,42.7c-0.1,2.1-2.7,2-2.9,0 C30.8,39.5,34.4,39.3,34.1,42.7z M18.2,41.6h-2.7C15.7,39.8,18,39.8,18.2,41.6z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + L St Nw",
+            "destination": "Gallery Place",
+            "direction": "Southbound",
+            "full_route": "South to Gallery Place",
+            "short_route": "42",
+            "prediction": 13,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "bc5d7e4fd594154c5412afa2329723ac",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "Connecticut Ave Nw + L St Nw",
+            "destination": "Gallery Place",
+            "direction": "Southbound",
+            "full_route": "South to Gallery Place",
+            "short_route": "42",
+            "prediction": 37,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "bc5d7e4fd594154c5412afa2329723ac",
+            "agency_id": 34
+        }],
+        "alerts": null
+    }, {
+        "title": "16th St NW & M St NW",
+        "id": 23838,
+        "column": 2,
+        "order": 4,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "f293d5e8d8ef6e265d7a80f7bcf0fdcb",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "34": {
+                "id": 34,
+                "full_name": "Washington Metropolitan Area Transit Authority",
+                "short_name": "Metrobus",
+                "mode": "bus",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"39px\" height=\"50px\" viewBox=\"0 0 39 50\"> <path fill=\"#065894\" d=\"M1.7,0h35.7C38.3,0,39,0.8,39,1.7v46.6c0,0.9-0.7,1.7-1.6,1.7H1.7C0.8,50,0,49.2,0,48.3V1.7 C0,0.8,0.8,0,1.7,0z\"/> <path fill=\"#FFFFFF\" d=\"M3.3,3v32.7h6.5V13l6.5,22.7h6.5L29.3,13v22.7h6.5V3h-9.7l-6.5,21.8L13,3H3.3z M21.4,37.3v1.8h-1v1.2h1v2.1 c0,2.1,0.1,2.2,0.2,2.4c0.2,0.3,0.5,0.4,0.9,0.5c0.5,0.1,1.1,0.1,1.5,0.1l0.3-0.1v-1.2h-0.4c-0.4,0-0.5,0-0.7-0.1 c-0.1-0.2-0.1-0.2-0.1-2L23,40.3h1.3v-1.2H23v-1.8H21.4z M32.6,39.1c-1.1,0-2.2,0.4-2.7,1.4c-0.7,1.3-0.5,3,0.4,4.1 c1.3,1.2,3.4,1.2,4.7,0c1-1.1,1.1-2.8,0.4-4.1C34.8,39.4,33.7,39.2,32.6,39.1z M16.9,39.1c-1.8,0.1-3.1,1.3-3.1,3.2 c0,1.5,0.8,2.7,2.3,3.1c0.5,0.1,1.5,0.1,2.1-0.1c0.5-0.2,1.1-0.7,1.4-1.3c0.1-0.2,0.2-0.5,0.2-0.5h-1.4c-0.3,0.5-0.7,0.7-1.4,0.7 s-1.5-0.7-1.5-1.5h4.4C20,40.8,18.9,39.1,16.9,39.1L16.9,39.1z M6.8,39.1c-0.6,0-1.3,0.1-1.7,0.6C5,39.9,4.9,40,4.8,40l0-0.9H3.3 v6.3h1.6v-2.1c0-1.9,0-2,0.2-2.3c0.3-0.5,0.7-0.8,1.3-0.7C6.7,40.4,7,40.6,7.1,41c0,0.1,0.1,1.1,0.1,2.3v2.1h1.7l0-2.2 c0-2,0-2.1,0.2-2.4c0.1-0.1,0.2-0.3,0.4-0.3c0.3-0.2,0.9-0.2,1.2,0c0.4,0.2,0.4,0.3,0.4,2.7v2.2h1.7v-2.5c0-2.3,0-2.4-0.2-2.7 c-0.4-0.9-1.1-1-2-1.1c-0.8,0-1.1,0.1-1.6,0.6L8.6,40l-0.2-0.3C8.1,39.3,7.5,39.1,6.8,39.1z M29.1,39.1h-0.4c-0.7,0-1.3,0.3-1.7,0.9 l-0.2,0.3v-1.2h-1.6v6.3h1.7v-1.6c0-1.8,0-2.2,0.3-2.6c0.4-0.5,0.7-0.6,1.4-0.6h0.5V39.1z M34.1,42.7c-0.1,2.1-2.7,2-2.9,0 C30.8,39.5,34.4,39.3,34.1,42.7z M18.2,41.6h-2.7C15.7,39.8,18,39.8,18.2,41.6z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "16th St + M St",
+            "destination": "Silver Spring Station",
+            "direction": "Northbound",
+            "full_route": "North to Silver Spring Station",
+            "short_route": "S9",
+            "prediction": 1,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "25a0b9bdea7c8b3dcba775bf71838b6a",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "16th St + M St",
+            "destination": "Silver Spring Station",
+            "direction": "Northbound",
+            "full_route": "North to Silver Spring Station",
+            "short_route": "S4",
+            "prediction": 7,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "90b59ba68f9a61c07680b1b49b742c0b",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "16th St + M St",
+            "destination": "Silver Spring Station",
+            "direction": "Northbound",
+            "full_route": "North to Silver Spring Station",
+            "short_route": "S2",
+            "prediction": 18,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "1cfd9be98f5c5427c225852e2ed94789",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "16th St + M St",
+            "destination": "Silver Spring Station",
+            "direction": "Northbound",
+            "full_route": "North to Silver Spring Station",
+            "short_route": "S9",
+            "prediction": 20,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "25a0b9bdea7c8b3dcba775bf71838b6a",
+            "agency_id": 34
+        }, {
+            "agency": "Washington Metropolitan Area Transit Authority",
+            "mode": "bus",
+            "name": "16th St + M St",
+            "destination": "Silver Spring Station",
+            "direction": "Northbound",
+            "full_route": "North to Silver Spring Station",
+            "short_route": "S4",
+            "prediction": 32,
+            "route_color": "#105cb6",
+            "text_color": "white",
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "90b59ba68f9a61c07680b1b49b742c0b",
+            "agency_id": 34
+        }],
+        "alerts": null
+    }, {
+        "title": "K St NW & 17th St NW (near side)",
+        "id": 23839,
+        "column": 3,
+        "order": 1,
+        "row_limit": null,
+        "block_group_id": 1,
+        "content_hash": "c7f90f6bef9d8d5d2ab3c9bf61221274",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "1": {
+                "id": 1,
+                "full_name": "DC Circulator",
+                "short_name": "Circulator",
+                "mode": "bus",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"50px\" height=\"50px\" viewBox=\"0 0 50 50\"> <path fill=\"#EF4136\" d=\"M43,7c2.5-2.1,4.6-5.2,7-7c0,7,0,14,0,21c-6.4,0.3-13.2,0-19.7,0.1c-0.2-0.6,0.8-1.3,1.4-1.8 c1.7-1.6,3.5-3.7,5.1-5.5c-2.4-2.5-5.2-4.2-9.3-4.5c-7.5-0.5-13.3,5-15,11.6c-3,0-6,0-9,0C5.9,9.5,12.9,1,25.2,0.1 C33-0.5,38.9,2.8,43,7z M19.8,24c0.2,0.4-0.3,0.7-0.5,0.9c-1.8,2-4.2,4.3-6,6.4c2.5,5.1,6.7,9.4,13.5,9.4s11-4.3,13.4-9.4 c3.1,0,6.2,0,9.3,0c-2.8,9.5-9.8,17.9-20.9,18.6C17.7,50.6,11.3,45,6.8,38.3C4.6,40.1,2.3,43.4,0,45c0.1-7-0.1-14.2,0.1-21 C6.7,24,13.2,24,19.8,24z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Georgetown",
+            "direction": "Westbound",
+            "route_color": "#CC3333",
+            "prediction": 6,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "afac80fb887a7311c23714b5266d25c1",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Georgetown",
+            "direction": "Westbound",
+            "route_color": "#CC3333",
+            "prediction": 16,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "afac80fb887a7311c23714b5266d25c1",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Georgetown",
+            "direction": "Westbound",
+            "route_color": "#CC3333",
+            "prediction": 36,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "afac80fb887a7311c23714b5266d25c1",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Georgetown",
+            "direction": "Westbound",
+            "route_color": "#CC3333",
+            "prediction": 46,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "afac80fb887a7311c23714b5266d25c1",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Georgetown",
+            "direction": "Westbound",
+            "route_color": "#CC3333",
+            "prediction": 56,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "afac80fb887a7311c23714b5266d25c1",
+            "text_color": "white",
+            "agency_id": 1
+        }],
+        "alerts": null
+    }, {
+        "title": "K St NW & 17th St NW (far side)",
+        "id": 23840,
+        "column": 3,
+        "order": 2,
+        "row_limit": null,
+        "block_group_id": 1,
+        "content_hash": "7c1adaccb3f9fa54a3392102d6abf010",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "1": {
+                "id": 1,
+                "full_name": "DC Circulator",
+                "short_name": "Circulator",
+                "mode": "bus",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"50px\" height=\"50px\" viewBox=\"0 0 50 50\"> <path fill=\"#EF4136\" d=\"M43,7c2.5-2.1,4.6-5.2,7-7c0,7,0,14,0,21c-6.4,0.3-13.2,0-19.7,0.1c-0.2-0.6,0.8-1.3,1.4-1.8 c1.7-1.6,3.5-3.7,5.1-5.5c-2.4-2.5-5.2-4.2-9.3-4.5c-7.5-0.5-13.3,5-15,11.6c-3,0-6,0-9,0C5.9,9.5,12.9,1,25.2,0.1 C33-0.5,38.9,2.8,43,7z M19.8,24c0.2,0.4-0.3,0.7-0.5,0.9c-1.8,2-4.2,4.3-6,6.4c2.5,5.1,6.7,9.4,13.5,9.4s11-4.3,13.4-9.4 c3.1,0,6.2,0,9.3,0c-2.8,9.5-9.8,17.9-20.9,18.6C17.7,50.6,11.3,45,6.8,38.3C4.6,40.1,2.3,43.4,0,45c0.1-7-0.1-14.2,0.1-21 C6.7,24,13.2,24,19.8,24z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Union Station",
+            "direction": "Eastbound",
+            "route_color": "#CC3333",
+            "prediction": 0,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a42c035256062328e050a41c280d3c60",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Union Station",
+            "direction": "Eastbound",
+            "route_color": "#CC3333",
+            "prediction": 11,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a42c035256062328e050a41c280d3c60",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Union Station",
+            "direction": "Eastbound",
+            "route_color": "#CC3333",
+            "prediction": 21,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a42c035256062328e050a41c280d3c60",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Union Station",
+            "direction": "Eastbound",
+            "route_color": "#CC3333",
+            "prediction": 31,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a42c035256062328e050a41c280d3c60",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "K Street NW And 17th Street NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Georgetown - Union Station",
+            "short_route": "CIR",
+            "destination": "Union Station",
+            "direction": "Eastbound",
+            "route_color": "#CC3333",
+            "prediction": 41,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "a42c035256062328e050a41c280d3c60",
+            "text_color": "white",
+            "agency_id": 1
+        }],
+        "alerts": null
+    }, {
+        "title": "14th St NW & Rhode Island Ave NW",
+        "id": 24274,
+        "column": 3,
+        "order": 3,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "64bc4ffd3ed220c794be8349ec4bb1dc",
+        "api_error": false,
+        "display_class": "masstransit",
+        "agencies": {
+            "1": {
+                "id": 1,
+                "full_name": "DC Circulator",
+                "short_name": "Circulator",
+                "mode": "bus",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"50px\" height=\"50px\" viewBox=\"0 0 50 50\"> <path fill=\"#EF4136\" d=\"M43,7c2.5-2.1,4.6-5.2,7-7c0,7,0,14,0,21c-6.4,0.3-13.2,0-19.7,0.1c-0.2-0.6,0.8-1.3,1.4-1.8 c1.7-1.6,3.5-3.7,5.1-5.5c-2.4-2.5-5.2-4.2-9.3-4.5c-7.5-0.5-13.3,5-15,11.6c-3,0-6,0-9,0C5.9,9.5,12.9,1,25.2,0.1 C33-0.5,38.9,2.8,43,7z M19.8,24c0.2,0.4-0.3,0.7-0.5,0.9c-1.8,2-4.2,4.3-6,6.4c2.5,5.1,6.7,9.4,13.5,9.4s11-4.3,13.4-9.4 c3.1,0,6.2,0,9.3,0c-2.8,9.5-9.8,17.9-20.9,18.6C17.7,50.6,11.3,45,6.8,38.3C4.6,40.1,2.3,43.4,0,45c0.1-7-0.1-14.2,0.1-21 C6.7,24,13.2,24,19.8,24z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "name": "14th Street NW And Rhode Island Avenue NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Woodley Park - Adams Morgan - McPherson Square Metro",
+            "short_route": "CIR",
+            "destination": "Woodley Park",
+            "direction": "Northbound",
+            "route_color": "#CC3333",
+            "prediction": 9,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "ad070abe003c40bba29dacd01a722b31",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "14th Street NW And Rhode Island Avenue NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Woodley Park - Adams Morgan - McPherson Square Metro",
+            "short_route": "CIR",
+            "destination": "Woodley Park",
+            "direction": "Northbound",
+            "route_color": "#CC3333",
+            "prediction": 19,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "ad070abe003c40bba29dacd01a722b31",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "14th Street NW And Rhode Island Avenue NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Woodley Park - Adams Morgan - McPherson Square Metro",
+            "short_route": "CIR",
+            "destination": "Woodley Park",
+            "direction": "Northbound",
+            "route_color": "#CC3333",
+            "prediction": 29,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "ad070abe003c40bba29dacd01a722b31",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "14th Street NW And Rhode Island Avenue NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Woodley Park - Adams Morgan - McPherson Square Metro",
+            "short_route": "CIR",
+            "destination": "Woodley Park",
+            "direction": "Northbound",
+            "route_color": "#CC3333",
+            "prediction": 39,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "ad070abe003c40bba29dacd01a722b31",
+            "text_color": "white",
+            "agency_id": 1
+        }, {
+            "name": "14th Street NW And Rhode Island Avenue NW",
+            "agency": "DC Circulator",
+            "mode": "bus",
+            "full_route": "Woodley Park - Adams Morgan - McPherson Square Metro",
+            "short_route": "CIR",
+            "destination": "Woodley Park",
+            "direction": "Northbound",
+            "route_color": "#CC3333",
+            "prediction": 49,
+            "platform": null,
+            "via": [
+
+            ],
+            "is_static": null,
+            "group_id": "ad070abe003c40bba29dacd01a722b31",
+            "text_color": "white",
+            "agency_id": 1
+        }],
+        "alerts": null
+    }, {
+        "title": "",
+        "id": 23841,
+        "column": 3,
+        "order": 4,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "f7a60f51595b6bd734ccce4df7762d42",
+        "api_error": false,
+        "display_class": "docked",
+        "agencies": {
+            "46": {
+                "id": 46,
+                "full_name": "Capital Bikeshare",
+                "short_name": "Capital Bikeshare",
+                "mode": "bikeshare",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"69px\" height=\"50px\" viewBox=\"0 0 69 50\"> <path fill=\"#E42227\" d=\"M69,42c0,4.4-3.4,8-7.6,8H7.6C3.4,50,0,46.4,0,42V8c0-4.4,3.4-8,7.6-8h53.7C65.6,0,69,3.6,69,8V42z\"/> <path fill=\"#FFCF16\" d=\"M48.3,10.4c-1.6,0-3.1,0-4.7,0c0.1,6.5-0.6,15.8-0.3,22.8c0.3,5.5,3.9,10.5,10.3,8.5 c6.4-2,7.2-14.5-0.9-15.8c-0.6,0.9-0.1,2.9-0.3,4.3c-0.6,0.1-1.2-0.9-1.8-1.6c-1.8-1.8-4.1-3.8-5.7-5.9c2.7-2.3,4.8-5.1,7.7-7.3 c0,1.7,0,3.5,0,5.2c7,1.4,11.8,6,11.2,14.6c-0.5,6.9-6.1,12.3-14.1,11.6c-6.4-0.6-10.9-5.4-11.3-12c-0.5-7.2,0.4-16.1,0-24.4 c-1.4-0.3-3.4,0-5.1-0.1c2.3-2.6,5.1-5.5,7.6-7.6C43.4,5.4,46,7.7,48.3,10.4z\"/> <path fill=\"#FFCF16\" d=\"M29.3,24.6c1.4-1,2.5-2.4,3.8-3.5c0.3,3.3,0,7.3,0.1,10.8c-3.6,0-7.2,0-10.8,0c1-1.5,2.4-2.4,3.5-3.8 c-3.9-4.5-12.7-1.7-13.6,3.8c-1.6,0-3.2,0-4.8,0c1.1-6.2,6.2-11.4,13.6-10.9C24.6,21.2,27.1,22.7,29.3,24.6z\"/> <path fill=\"#FFCF16\" d=\"M16.2,33.5c-0.5,1.4-2.4,2.4-3.4,3.8c1.2,2.8,3.8,4.9,7.3,4.9c3.8,0.1,6.3-2.3,7.7-4.9c1.6,0,3.3,0,5,0 c-0.7,2.7-2,5-3.9,6.6c-6,5.2-16.1,3.3-19.7-2.9c-1.4,0.8-2.5,2.7-3.7,3.3c0-3.6,0-7.1,0-10.7C8.9,33.3,12.7,33.6,16.2,33.5z\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Capital Bikeshare",
+            "mode": "bikeshare",
+            "color": "#ff0000",
+            "name": "Rhode Island & Connecticut Ave NW",
+            "vehicle_count": 13,
+            "space_count": 6,
+            "type": "docked",
+            "agencyInfo": {
+                "status": "open"
+            },
+            "walk_minutes": 4,
+            "agency_id": 46
+        }, {
+            "agency": "Capital Bikeshare",
+            "mode": "bikeshare",
+            "color": "#ff0000",
+            "name": "18th & M St NW",
+            "vehicle_count": 18,
+            "space_count": 8,
+            "type": "docked",
+            "agencyInfo": {
+                "status": "open"
+            },
+            "walk_minutes": 4,
+            "agency_id": 46
+        }, {
+            "agency": "Capital Bikeshare",
+            "mode": "bikeshare",
+            "color": "#ff0000",
+            "name": "17th St & Massachusetts Ave NW",
+            "vehicle_count": 12,
+            "space_count": 7,
+            "type": "docked",
+            "agencyInfo": {
+                "status": "open"
+            },
+            "walk_minutes": 6,
+            "agency_id": 46
+        }, {
+            "agency": "Capital Bikeshare",
+            "mode": "bikeshare",
+            "color": "#ff0000",
+            "name": "20th & O St NW / Dupont South",
+            "vehicle_count": 5,
+            "space_count": 14,
+            "type": "docked",
+            "agencyInfo": {
+                "status": "open"
+            },
+            "walk_minutes": 10,
+            "agency_id": 46
+        }],
+        "alerts": null
+    }, {
+        "title": "",
+        "id": 23842,
+        "column": 3,
+        "order": 5,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "b1f2f24d005712a880720d34ac92dd5b",
+        "api_error": false,
+        "display_class": "floating",
+        "agencies": [{
+            "id": 71,
+            "full_name": "Lyft",
+            "short_name": "Lyft",
+            "mode": "floating",
+            "vehicle_brand_name": "",
+            "secondary_logo": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"77px\" height=\"40px\" viewBox=\"0 0 77 40\" enable-background=\"new 0 0 77 40\" xml:space=\"preserve\"> <path fill=\"#E8128C\" d=\"M65.187,40H9.815C4.403,40,0,35.383,0,29.706V10.293C0,4.617,4.404,0,9.815,0h55.372 C70.599,0,75,4.617,75,10.293v19.413C75.001,35.383,70.597,40,65.187,40z M9.815,1.958c-4.375,0-7.935,3.739-7.935,8.335v19.413 c0,4.596,3.56,8.337,7.935,8.337h55.372c4.375,0,7.934-3.741,7.934-8.337V10.293c0-4.596-3.559-8.335-7.934-8.335H9.815z\"/> <g> <path fill=\"#E8128C\" d=\"M8.016,12.069h6.049c3.531,0,5.668,2.094,5.668,5.118v0.043c0,3.424-2.665,5.202-5.986,5.202h-2.475v4.441 H8.016V12.069z M13.854,19.533c1.628,0,2.58-0.972,2.58-2.242v-0.042c0-1.459-1.015-2.242-2.644-2.242h-2.516v4.525L13.854,19.533 L13.854,19.533z\"/> <path fill=\"#E8128C\" d=\"M21.807,15.537h3.214v2.284c0.656-1.564,1.713-2.58,3.617-2.496v3.363h-0.17c-2.136,0-3.448,1.291-3.448,4 v4.188h-3.214L21.807,15.537L21.807,15.537z\"/> <path fill=\"#E8128C\" d=\"M30.71,11.434h3.383v2.855H30.71V11.434z M30.793,15.537h3.214v11.336h-3.214V15.537z\"/> <path fill=\"#E8128C\" d=\"M37.031,15.537h3.214v1.608c0.74-0.953,1.713-1.82,3.343-1.82c1.479,0,2.601,0.656,3.192,1.799 c0.996-1.164,2.18-1.799,3.724-1.799c2.39,0,3.828,1.438,3.828,4.166v7.382h-3.214V20.55c0-1.523-0.678-2.305-1.883-2.305 s-1.946,0.783-1.946,2.305v6.323h-3.214V20.55c0-1.523-0.678-2.305-1.885-2.305c-1.205,0-1.944,0.783-1.944,2.305v6.323H37.03 L37.031,15.537L37.031,15.537z\"/> <path fill=\"#E8128C\" d=\"M56.573,21.27v-0.043c0-3.235,2.305-5.901,5.603-5.901c3.788,0,5.522,2.94,5.522,6.155 c0,0.256-0.022,0.551-0.045,0.846h-7.887c0.316,1.462,1.332,2.223,2.771,2.223c1.079,0,1.86-0.337,2.75-1.162l1.841,1.63 c-1.059,1.312-2.583,2.114-4.632,2.114C59.09,27.127,56.573,24.736,56.573,21.27z M64.565,20.319 c-0.188-1.439-1.035-2.411-2.392-2.411c-1.332,0-2.198,0.952-2.45,2.411H64.565z\"/> </g> </svg>",
+            "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"70px\" height=\"50px\" viewBox=\"0 0 70 50\"> <path fill=\"#EA0B8C\" d=\"M0,0.9h10.6v28.8c0,4.6,2.1,7.3,3.7,8.4c-1.7,1.6-7,2.9-11-0.4C1.1,35.8,0,32.6,0,29.6V0.9z\"/> <path fill=\"#EA0B8C\" d=\"M66.3,24.8v-3h3.2V11.1h-3.6C64.6,4.8,59,0,52.3,0c-7.7,0-14,6.3-14,14.2V39c2.2,0.3,4.8,0,7.1-1.9 c2.3-1.9,3.4-5.1,3.4-8.1v-1h5.3V17.4h-5.3v-3.2l0,0c0-2,1.6-3.6,3.6-3.6s3.6,1.6,3.6,3.6v10.6C56,32.6,62.3,39,70,39V28.4 C67.9,28.4,66.3,26.8,66.3,24.8z\"/> <path fill=\"#EA0B8C\" d=\"M26.2,10v15.6c0,0.9-0.7,1.6-1.6,1.6S23,26.5,23,25.6V10H12.4v18.3c0,3.3,1.1,7.5,6.1,8.8c5,1.4,8-1.5,8-1.5 c-0.3,1.9-2,3.2-4.8,3.5c-2.1,0.2-4.8-0.5-6.1-1.1v10c3.4,1,7,1.3,10.6,0.7c6.4-1.3,10.5-6.7,10.5-13.9V10H26.2z\"/> </svg>"
+        }],
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Lyft",
+            "mode": "floating",
+            "name": "Lyft Line",
+            "pricing_multiplier": "1",
+            "prediction": 1,
+            "external_url": "https://lyft.com/ride?id=lyft_line&partner=COQ-qP0bDBll",
+            "agency_id": 71
+        }, {
+            "agency": "Lyft",
+            "mode": "floating",
+            "name": "Lyft",
+            "pricing_multiplier": "1",
+            "prediction": 1,
+            "external_url": "https://lyft.com/ride?id=lyft&partner=COQ-qP0bDBll",
+            "agency_id": 71
+        }],
+        "alerts": null
+    }, {
+        "title": "",
+        "id": 23843,
+        "column": 3,
+        "order": 6,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "99cfb72bdd93819fae087925399a50b7",
+        "api_error": false,
+        "display_class": "docked",
+        "agencies": {
+            "82": {
+                "id": 82,
+                "full_name": "Zipcar",
+                "short_name": "Zipcar",
+                "mode": "carshare",
+                "vehicle_brand_name": "",
+                "secondary_logo": null,
+                "logo": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"50px\" height=\"50px\" viewBox=\"0 0 50 50\"> <path fill=\"#59AD46\" d=\"M0,25C0,11.2,11.2,0,25,0c13.8,0,25,11.2,25,25c0,13.8-11.2,25-25,25S0,38.8,0,25\"/> <path fill=\"#FFFFFF\" d=\"M48.8,34.1c0.1-0.4,0.3-0.7,0.4-1.1h-21l1-1.3h14.5c0.3,0,0.5-0.2,0.5-0.5s-0.2-0.5-0.5-0.5H30.1l1-1.3h7.4 c0.2,0,0.4-0.2,0.4-0.5c0-0.3-0.2-0.5-0.4-0.5H18.9l12-15.6H11.1v4.3h10.5l-11,14.3l-2.3,2.9c0,0,6.8,0,6.9,0h1.9 c0.7-1.8,2.5-3.1,4.6-3.1c2.1,0,3.9,1.3,4.6,3.1H48.8\"/> <path fill=\"#5C5D5F\" d=\"M25.6,36c0,2.1-1.7,3.9-3.9,3.9c-2.1,0-3.9-1.7-3.9-3.9s1.7-3.9,3.9-3.9C23.9,32.2,25.6,33.9,25.6,36\"/> </svg>"
+            }
+        },
+        "walk_minutes": null,
+        "min_prediction": 1,
+        "max_prediction": null,
+        "index_start": null,
+        "index_end": null,
+        "arrow_icon": null,
+        "items": [{
+            "agency": "Zipcar",
+            "mode": "carshare",
+            "name": "1105 18th St. NW",
+            "color": "#63b041",
+            "vehicle_count": 1,
+            "details": "1120 Connecticut Ave NW (Colonial Parking)",
+            "walk_minutes": 4,
+            "agency_id": 82
+        }],
+        "alerts": null
+    }, {
+        "title": "",
+        "id": 23844,
+        "column": 4,
+        "order": 1,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "c4620933f722e91b4f05f029586cade0",
+        "api_error": false,
+        "name": "Clock",
+        "display_class": "clock",
+        "align": "center",
+        "time_format": "",
+        "date_format": "",
+        "date_visible": true,
+        "weather_visible": false,
+        "clock_update_interval": "",
+        "unit": "F",
+        "latitude": 38.904969999999999,
+        "longitude": -77.039659999999998,
+        "theme_id": 1,
+        "screen_id": 2520,
+        "timezone": "America/New_York"
+    }, {
+        "title": "",
+        "id": 23845,
+        "column": 4,
+        "order": 2,
+        "row_limit": null,
+        "block_group_id": null,
+        "content_hash": "f832e24dccaa2125d38b65415eecf5d0",
+        "api_error": false,
+        "name": "Weather",
+        "display_class": "weather",
+        "unit": "F",
+        "latitude": 38.904969999999999,
+        "longitude": -77.039659999999998,
+        "theme_id": 1,
+        "screen_id": 2520,
+        "timezone": "America/New_York",
+        "success": true,
+        "currentWeather": {
+            "timestamp": 1520445600000,
+            "icon": "partly-cloudy-day",
+            "label": "Mostly Cloudy",
+            "temperature": 41,
+            "units": "F"
+        },
+        "weather": [{
+            "timestamp": 1520449200000,
+            "icon": "partly-cloudy-day",
+            "label": "Mostly Cloudy",
+            "temperature": 44,
+            "units": "F"
+        }, {
+            "timestamp": 1520452800000,
+            "icon": "partly-cloudy-day",
+            "label": "Mostly Cloudy",
+            "temperature": 47,
+            "units": "F"
+        }, {
+            "timestamp": 1520456400000,
+            "icon": "partly-cloudy-day",
+            "label": "Mostly Cloudy",
+            "temperature": 49,
+            "units": "F"
+        }]
+    }],
+    "screen": {
+        "id": 2520,
+        "pretty_url": "1725desales",
+        "name": "TransitScreen HQ - 1725 DeSales St [GO SCREEN]",
+        "address": "1725 Desales St",
+        "spot": "",
+        "version": 15,
+        "last_checkin": "2018-03-07T18:15:11+00:00",
+        "lat": 38.904969999999999,
+        "lon": -77.039659999999998,
+        "theme_id": 1,
+        "filter_arrivals_by_walk_time": 0,
+        "walk_filter_multiplier": 1,
+        "gaze_heading": null,
+        "gaze_elevation": null,
+        "timezone": "America/New_York",
+        "l10n": "en_us",
+        "refresh": false,
+        "created": "2017-08-03T14:23:53+00:00",
+        "modified": "2018-03-06T18:39:06+00:00",
+        "zoom": 1,
+        "status": "interactive",
+        "is_go": true,
+        "salesforce_id": "",
+        "city": "Washington DC",
+        "is_animated": false,
+        "theme_color": "light",
+        "is_remove_frame": false,
+        "is_optimize_text": false,
+        "fixed_json_links": "",
+        "fixed_json_refresh_rate": 45,
+        "fixed_json_enabled": false,
+        "temperature_unit": "auto",
+        "map_logo": "",
+        "map_text": "",
+        "has_support": false,
+        "is_touch": false,
+        "flex_sidebar": false,
+        "placemaker_id": "",
+        "customer_id": null,
+        "hash": "nqmw",
+        "go_screen_id": null,
+        "mobile_app_branchio_link": "https://app.tsgo.io/nqmw",
+        "mobile_app_short_link": "app.tsgo.io/nqmw",
+        "mobile_app_short_link_qr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"100%\" height=\"100%\" viewBox=\"0 0 256 256\"><defs><rect id=\"r0\" width=\"8\" height=\"8\" fill=\"#223b47\"/></defs><rect x=\"0\" y=\"0\" width=\"256\" height=\"256\" fill=\"#f7f7f9\"/><use x=\"28\" y=\"28\" xlink:href=\"#r0\"/><use x=\"36\" y=\"28\" xlink:href=\"#r0\"/><use x=\"44\" y=\"28\" xlink:href=\"#r0\"/><use x=\"52\" y=\"28\" xlink:href=\"#r0\"/><use x=\"60\" y=\"28\" xlink:href=\"#r0\"/><use x=\"68\" y=\"28\" xlink:href=\"#r0\"/><use x=\"76\" y=\"28\" xlink:href=\"#r0\"/><use x=\"92\" y=\"28\" xlink:href=\"#r0\"/><use x=\"108\" y=\"28\" xlink:href=\"#r0\"/><use x=\"124\" y=\"28\" xlink:href=\"#r0\"/><use x=\"132\" y=\"28\" xlink:href=\"#r0\"/><use x=\"140\" y=\"28\" xlink:href=\"#r0\"/><use x=\"148\" y=\"28\" xlink:href=\"#r0\"/><use x=\"172\" y=\"28\" xlink:href=\"#r0\"/><use x=\"180\" y=\"28\" xlink:href=\"#r0\"/><use x=\"188\" y=\"28\" xlink:href=\"#r0\"/><use x=\"196\" y=\"28\" xlink:href=\"#r0\"/><use x=\"204\" y=\"28\" xlink:href=\"#r0\"/><use x=\"212\" y=\"28\" xlink:href=\"#r0\"/><use x=\"220\" y=\"28\" xlink:href=\"#r0\"/><use x=\"28\" y=\"36\" xlink:href=\"#r0\"/><use x=\"76\" y=\"36\" xlink:href=\"#r0\"/><use x=\"92\" y=\"36\" xlink:href=\"#r0\"/><use x=\"100\" y=\"36\" xlink:href=\"#r0\"/><use x=\"108\" y=\"36\" xlink:href=\"#r0\"/><use x=\"132\" y=\"36\" xlink:href=\"#r0\"/><use x=\"140\" y=\"36\" xlink:href=\"#r0\"/><use x=\"148\" y=\"36\" xlink:href=\"#r0\"/><use x=\"172\" y=\"36\" xlink:href=\"#r0\"/><use x=\"220\" y=\"36\" xlink:href=\"#r0\"/><use x=\"28\" y=\"44\" xlink:href=\"#r0\"/><use x=\"44\" y=\"44\" xlink:href=\"#r0\"/><use x=\"52\" y=\"44\" xlink:href=\"#r0\"/><use x=\"60\" y=\"44\" xlink:href=\"#r0\"/><use x=\"76\" y=\"44\" xlink:href=\"#r0\"/><use x=\"92\" y=\"44\" xlink:href=\"#r0\"/><use x=\"100\" y=\"44\" xlink:href=\"#r0\"/><use x=\"108\" y=\"44\" xlink:href=\"#r0\"/><use x=\"124\" y=\"44\" xlink:href=\"#r0\"/><use x=\"132\" y=\"44\" xlink:href=\"#r0\"/><use x=\"140\" y=\"44\" xlink:href=\"#r0\"/><use x=\"172\" y=\"44\" xlink:href=\"#r0\"/><use x=\"188\" y=\"44\" xlink:href=\"#r0\"/><use x=\"196\" y=\"44\" xlink:href=\"#r0\"/><use x=\"204\" y=\"44\" xlink:href=\"#r0\"/><use x=\"220\" y=\"44\" xlink:href=\"#r0\"/><use x=\"28\" y=\"52\" xlink:href=\"#r0\"/><use x=\"44\" y=\"52\" xlink:href=\"#r0\"/><use x=\"52\" y=\"52\" xlink:href=\"#r0\"/><use x=\"60\" y=\"52\" xlink:href=\"#r0\"/><use x=\"76\" y=\"52\" xlink:href=\"#r0\"/><use x=\"108\" y=\"52\" xlink:href=\"#r0\"/><use x=\"116\" y=\"52\" xlink:href=\"#r0\"/><use x=\"124\" y=\"52\" xlink:href=\"#r0\"/><use x=\"140\" y=\"52\" xlink:href=\"#r0\"/><use x=\"148\" y=\"52\" xlink:href=\"#r0\"/><use x=\"156\" y=\"52\" xlink:href=\"#r0\"/><use x=\"172\" y=\"52\" xlink:href=\"#r0\"/><use x=\"188\" y=\"52\" xlink:href=\"#r0\"/><use x=\"196\" y=\"52\" xlink:href=\"#r0\"/><use x=\"204\" y=\"52\" xlink:href=\"#r0\"/><use x=\"220\" y=\"52\" xlink:href=\"#r0\"/><use x=\"28\" y=\"60\" xlink:href=\"#r0\"/><use x=\"44\" y=\"60\" xlink:href=\"#r0\"/><use x=\"52\" y=\"60\" xlink:href=\"#r0\"/><use x=\"60\" y=\"60\" xlink:href=\"#r0\"/><use x=\"76\" y=\"60\" xlink:href=\"#r0\"/><use x=\"92\" y=\"60\" xlink:href=\"#r0\"/><use x=\"116\" y=\"60\" xlink:href=\"#r0\"/><use x=\"124\" y=\"60\" xlink:href=\"#r0\"/><use x=\"132\" y=\"60\" xlink:href=\"#r0\"/><use x=\"148\" y=\"60\" xlink:href=\"#r0\"/><use x=\"172\" y=\"60\" xlink:href=\"#r0\"/><use x=\"188\" y=\"60\" xlink:href=\"#r0\"/><use x=\"196\" y=\"60\" xlink:href=\"#r0\"/><use x=\"204\" y=\"60\" xlink:href=\"#r0\"/><use x=\"220\" y=\"60\" xlink:href=\"#r0\"/><use x=\"28\" y=\"68\" xlink:href=\"#r0\"/><use x=\"76\" y=\"68\" xlink:href=\"#r0\"/><use x=\"108\" y=\"68\" xlink:href=\"#r0\"/><use x=\"124\" y=\"68\" xlink:href=\"#r0\"/><use x=\"132\" y=\"68\" xlink:href=\"#r0\"/><use x=\"140\" y=\"68\" xlink:href=\"#r0\"/><use x=\"172\" y=\"68\" xlink:href=\"#r0\"/><use x=\"220\" y=\"68\" xlink:href=\"#r0\"/><use x=\"28\" y=\"76\" xlink:href=\"#r0\"/><use x=\"36\" y=\"76\" xlink:href=\"#r0\"/><use x=\"44\" y=\"76\" xlink:href=\"#r0\"/><use x=\"52\" y=\"76\" xlink:href=\"#r0\"/><use x=\"60\" y=\"76\" xlink:href=\"#r0\"/><use x=\"68\" y=\"76\" xlink:href=\"#r0\"/><use x=\"76\" y=\"76\" xlink:href=\"#r0\"/><use x=\"92\" y=\"76\" xlink:href=\"#r0\"/><use x=\"108\" y=\"76\" xlink:href=\"#r0\"/><use x=\"124\" y=\"76\" xlink:href=\"#r0\"/><use x=\"140\" y=\"76\" xlink:href=\"#r0\"/><use x=\"156\" y=\"76\" xlink:href=\"#r0\"/><use x=\"172\" y=\"76\" xlink:href=\"#r0\"/><use x=\"180\" y=\"76\" xlink:href=\"#r0\"/><use x=\"188\" y=\"76\" xlink:href=\"#r0\"/><use x=\"196\" y=\"76\" xlink:href=\"#r0\"/><use x=\"204\" y=\"76\" xlink:href=\"#r0\"/><use x=\"212\" y=\"76\" xlink:href=\"#r0\"/><use x=\"220\" y=\"76\" xlink:href=\"#r0\"/><use x=\"100\" y=\"84\" xlink:href=\"#r0\"/><use x=\"108\" y=\"84\" xlink:href=\"#r0\"/><use x=\"140\" y=\"84\" xlink:href=\"#r0\"/><use x=\"148\" y=\"84\" xlink:href=\"#r0\"/><use x=\"156\" y=\"84\" xlink:href=\"#r0\"/><use x=\"28\" y=\"92\" xlink:href=\"#r0\"/><use x=\"52\" y=\"92\" xlink:href=\"#r0\"/><use x=\"60\" y=\"92\" xlink:href=\"#r0\"/><use x=\"68\" y=\"92\" xlink:href=\"#r0\"/><use x=\"76\" y=\"92\" xlink:href=\"#r0\"/><use x=\"84\" y=\"92\" xlink:href=\"#r0\"/><use x=\"92\" y=\"92\" xlink:href=\"#r0\"/><use x=\"100\" y=\"92\" xlink:href=\"#r0\"/><use x=\"116\" y=\"92\" xlink:href=\"#r0\"/><use x=\"132\" y=\"92\" xlink:href=\"#r0\"/><use x=\"140\" y=\"92\" xlink:href=\"#r0\"/><use x=\"148\" y=\"92\" xlink:href=\"#r0\"/><use x=\"164\" y=\"92\" xlink:href=\"#r0\"/><use x=\"188\" y=\"92\" xlink:href=\"#r0\"/><use x=\"204\" y=\"92\" xlink:href=\"#r0\"/><use x=\"212\" y=\"92\" xlink:href=\"#r0\"/><use x=\"220\" y=\"92\" xlink:href=\"#r0\"/><use x=\"28\" y=\"100\" xlink:href=\"#r0\"/><use x=\"52\" y=\"100\" xlink:href=\"#r0\"/><use x=\"60\" y=\"100\" xlink:href=\"#r0\"/><use x=\"68\" y=\"100\" xlink:href=\"#r0\"/><use x=\"84\" y=\"100\" xlink:href=\"#r0\"/><use x=\"92\" y=\"100\" xlink:href=\"#r0\"/><use x=\"108\" y=\"100\" xlink:href=\"#r0\"/><use x=\"140\" y=\"100\" xlink:href=\"#r0\"/><use x=\"148\" y=\"100\" xlink:href=\"#r0\"/><use x=\"180\" y=\"100\" xlink:href=\"#r0\"/><use x=\"188\" y=\"100\" xlink:href=\"#r0\"/><use x=\"204\" y=\"100\" xlink:href=\"#r0\"/><use x=\"212\" y=\"100\" xlink:href=\"#r0\"/><use x=\"44\" y=\"108\" xlink:href=\"#r0\"/><use x=\"52\" y=\"108\" xlink:href=\"#r0\"/><use x=\"68\" y=\"108\" xlink:href=\"#r0\"/><use x=\"76\" y=\"108\" xlink:href=\"#r0\"/><use x=\"84\" y=\"108\" xlink:href=\"#r0\"/><use x=\"108\" y=\"108\" xlink:href=\"#r0\"/><use x=\"116\" y=\"108\" xlink:href=\"#r0\"/><use x=\"124\" y=\"108\" xlink:href=\"#r0\"/><use x=\"140\" y=\"108\" xlink:href=\"#r0\"/><use x=\"148\" y=\"108\" xlink:href=\"#r0\"/><use x=\"156\" y=\"108\" xlink:href=\"#r0\"/><use x=\"164\" y=\"108\" xlink:href=\"#r0\"/><use x=\"196\" y=\"108\" xlink:href=\"#r0\"/><use x=\"220\" y=\"108\" xlink:href=\"#r0\"/><use x=\"52\" y=\"116\" xlink:href=\"#r0\"/><use x=\"68\" y=\"116\" xlink:href=\"#r0\"/><use x=\"84\" y=\"116\" xlink:href=\"#r0\"/><use x=\"92\" y=\"116\" xlink:href=\"#r0\"/><use x=\"116\" y=\"116\" xlink:href=\"#r0\"/><use x=\"124\" y=\"116\" xlink:href=\"#r0\"/><use x=\"140\" y=\"116\" xlink:href=\"#r0\"/><use x=\"172\" y=\"116\" xlink:href=\"#r0\"/><use x=\"180\" y=\"116\" xlink:href=\"#r0\"/><use x=\"188\" y=\"116\" xlink:href=\"#r0\"/><use x=\"204\" y=\"116\" xlink:href=\"#r0\"/><use x=\"212\" y=\"116\" xlink:href=\"#r0\"/><use x=\"220\" y=\"116\" xlink:href=\"#r0\"/><use x=\"36\" y=\"124\" xlink:href=\"#r0\"/><use x=\"44\" y=\"124\" xlink:href=\"#r0\"/><use x=\"52\" y=\"124\" xlink:href=\"#r0\"/><use x=\"60\" y=\"124\" xlink:href=\"#r0\"/><use x=\"76\" y=\"124\" xlink:href=\"#r0\"/><use x=\"92\" y=\"124\" xlink:href=\"#r0\"/><use x=\"100\" y=\"124\" xlink:href=\"#r0\"/><use x=\"108\" y=\"124\" xlink:href=\"#r0\"/><use x=\"132\" y=\"124\" xlink:href=\"#r0\"/><use x=\"140\" y=\"124\" xlink:href=\"#r0\"/><use x=\"156\" y=\"124\" xlink:href=\"#r0\"/><use x=\"172\" y=\"124\" xlink:href=\"#r0\"/><use x=\"180\" y=\"124\" xlink:href=\"#r0\"/><use x=\"196\" y=\"124\" xlink:href=\"#r0\"/><use x=\"212\" y=\"124\" xlink:href=\"#r0\"/><use x=\"220\" y=\"124\" xlink:href=\"#r0\"/><use x=\"28\" y=\"132\" xlink:href=\"#r0\"/><use x=\"44\" y=\"132\" xlink:href=\"#r0\"/><use x=\"68\" y=\"132\" xlink:href=\"#r0\"/><use x=\"92\" y=\"132\" xlink:href=\"#r0\"/><use x=\"100\" y=\"132\" xlink:href=\"#r0\"/><use x=\"108\" y=\"132\" xlink:href=\"#r0\"/><use x=\"124\" y=\"132\" xlink:href=\"#r0\"/><use x=\"148\" y=\"132\" xlink:href=\"#r0\"/><use x=\"156\" y=\"132\" xlink:href=\"#r0\"/><use x=\"180\" y=\"132\" xlink:href=\"#r0\"/><use x=\"188\" y=\"132\" xlink:href=\"#r0\"/><use x=\"196\" y=\"132\" xlink:href=\"#r0\"/><use x=\"204\" y=\"132\" xlink:href=\"#r0\"/><use x=\"212\" y=\"132\" xlink:href=\"#r0\"/><use x=\"28\" y=\"140\" xlink:href=\"#r0\"/><use x=\"36\" y=\"140\" xlink:href=\"#r0\"/><use x=\"52\" y=\"140\" xlink:href=\"#r0\"/><use x=\"60\" y=\"140\" xlink:href=\"#r0\"/><use x=\"68\" y=\"140\" xlink:href=\"#r0\"/><use x=\"76\" y=\"140\" xlink:href=\"#r0\"/><use x=\"84\" y=\"140\" xlink:href=\"#r0\"/><use x=\"92\" y=\"140\" xlink:href=\"#r0\"/><use x=\"100\" y=\"140\" xlink:href=\"#r0\"/><use x=\"108\" y=\"140\" xlink:href=\"#r0\"/><use x=\"140\" y=\"140\" xlink:href=\"#r0\"/><use x=\"148\" y=\"140\" xlink:href=\"#r0\"/><use x=\"164\" y=\"140\" xlink:href=\"#r0\"/><use x=\"188\" y=\"140\" xlink:href=\"#r0\"/><use x=\"196\" y=\"140\" xlink:href=\"#r0\"/><use x=\"212\" y=\"140\" xlink:href=\"#r0\"/><use x=\"220\" y=\"140\" xlink:href=\"#r0\"/><use x=\"28\" y=\"148\" xlink:href=\"#r0\"/><use x=\"44\" y=\"148\" xlink:href=\"#r0\"/><use x=\"68\" y=\"148\" xlink:href=\"#r0\"/><use x=\"92\" y=\"148\" xlink:href=\"#r0\"/><use x=\"100\" y=\"148\" xlink:href=\"#r0\"/><use x=\"124\" y=\"148\" xlink:href=\"#r0\"/><use x=\"132\" y=\"148\" xlink:href=\"#r0\"/><use x=\"140\" y=\"148\" xlink:href=\"#r0\"/><use x=\"156\" y=\"148\" xlink:href=\"#r0\"/><use x=\"164\" y=\"148\" xlink:href=\"#r0\"/><use x=\"180\" y=\"148\" xlink:href=\"#r0\"/><use x=\"196\" y=\"148\" xlink:href=\"#r0\"/><use x=\"204\" y=\"148\" xlink:href=\"#r0\"/><use x=\"212\" y=\"148\" xlink:href=\"#r0\"/><use x=\"220\" y=\"148\" xlink:href=\"#r0\"/><use x=\"28\" y=\"156\" xlink:href=\"#r0\"/><use x=\"52\" y=\"156\" xlink:href=\"#r0\"/><use x=\"60\" y=\"156\" xlink:href=\"#r0\"/><use x=\"68\" y=\"156\" xlink:href=\"#r0\"/><use x=\"76\" y=\"156\" xlink:href=\"#r0\"/><use x=\"108\" y=\"156\" xlink:href=\"#r0\"/><use x=\"116\" y=\"156\" xlink:href=\"#r0\"/><use x=\"124\" y=\"156\" xlink:href=\"#r0\"/><use x=\"148\" y=\"156\" xlink:href=\"#r0\"/><use x=\"156\" y=\"156\" xlink:href=\"#r0\"/><use x=\"164\" y=\"156\" xlink:href=\"#r0\"/><use x=\"172\" y=\"156\" xlink:href=\"#r0\"/><use x=\"180\" y=\"156\" xlink:href=\"#r0\"/><use x=\"188\" y=\"156\" xlink:href=\"#r0\"/><use x=\"204\" y=\"156\" xlink:href=\"#r0\"/><use x=\"212\" y=\"156\" xlink:href=\"#r0\"/><use x=\"220\" y=\"156\" xlink:href=\"#r0\"/><use x=\"92\" y=\"164\" xlink:href=\"#r0\"/><use x=\"100\" y=\"164\" xlink:href=\"#r0\"/><use x=\"116\" y=\"164\" xlink:href=\"#r0\"/><use x=\"148\" y=\"164\" xlink:href=\"#r0\"/><use x=\"156\" y=\"164\" xlink:href=\"#r0\"/><use x=\"188\" y=\"164\" xlink:href=\"#r0\"/><use x=\"196\" y=\"164\" xlink:href=\"#r0\"/><use x=\"204\" y=\"164\" xlink:href=\"#r0\"/><use x=\"212\" y=\"164\" xlink:href=\"#r0\"/><use x=\"28\" y=\"172\" xlink:href=\"#r0\"/><use x=\"36\" y=\"172\" xlink:href=\"#r0\"/><use x=\"44\" y=\"172\" xlink:href=\"#r0\"/><use x=\"52\" y=\"172\" xlink:href=\"#r0\"/><use x=\"60\" y=\"172\" xlink:href=\"#r0\"/><use x=\"68\" y=\"172\" xlink:href=\"#r0\"/><use x=\"76\" y=\"172\" xlink:href=\"#r0\"/><use x=\"92\" y=\"172\" xlink:href=\"#r0\"/><use x=\"124\" y=\"172\" xlink:href=\"#r0\"/><use x=\"132\" y=\"172\" xlink:href=\"#r0\"/><use x=\"140\" y=\"172\" xlink:href=\"#r0\"/><use x=\"156\" y=\"172\" xlink:href=\"#r0\"/><use x=\"172\" y=\"172\" xlink:href=\"#r0\"/><use x=\"188\" y=\"172\" xlink:href=\"#r0\"/><use x=\"196\" y=\"172\" xlink:href=\"#r0\"/><use x=\"204\" y=\"172\" xlink:href=\"#r0\"/><use x=\"220\" y=\"172\" xlink:href=\"#r0\"/><use x=\"28\" y=\"180\" xlink:href=\"#r0\"/><use x=\"76\" y=\"180\" xlink:href=\"#r0\"/><use x=\"92\" y=\"180\" xlink:href=\"#r0\"/><use x=\"108\" y=\"180\" xlink:href=\"#r0\"/><use x=\"116\" y=\"180\" xlink:href=\"#r0\"/><use x=\"132\" y=\"180\" xlink:href=\"#r0\"/><use x=\"148\" y=\"180\" xlink:href=\"#r0\"/><use x=\"156\" y=\"180\" xlink:href=\"#r0\"/><use x=\"188\" y=\"180\" xlink:href=\"#r0\"/><use x=\"196\" y=\"180\" xlink:href=\"#r0\"/><use x=\"220\" y=\"180\" xlink:href=\"#r0\"/><use x=\"28\" y=\"188\" xlink:href=\"#r0\"/><use x=\"44\" y=\"188\" xlink:href=\"#r0\"/><use x=\"52\" y=\"188\" xlink:href=\"#r0\"/><use x=\"60\" y=\"188\" xlink:href=\"#r0\"/><use x=\"76\" y=\"188\" xlink:href=\"#r0\"/><use x=\"92\" y=\"188\" xlink:href=\"#r0\"/><use x=\"116\" y=\"188\" xlink:href=\"#r0\"/><use x=\"132\" y=\"188\" xlink:href=\"#r0\"/><use x=\"148\" y=\"188\" xlink:href=\"#r0\"/><use x=\"156\" y=\"188\" xlink:href=\"#r0\"/><use x=\"164\" y=\"188\" xlink:href=\"#r0\"/><use x=\"172\" y=\"188\" xlink:href=\"#r0\"/><use x=\"180\" y=\"188\" xlink:href=\"#r0\"/><use x=\"188\" y=\"188\" xlink:href=\"#r0\"/><use x=\"220\" y=\"188\" xlink:href=\"#r0\"/><use x=\"28\" y=\"196\" xlink:href=\"#r0\"/><use x=\"44\" y=\"196\" xlink:href=\"#r0\"/><use x=\"52\" y=\"196\" xlink:href=\"#r0\"/><use x=\"60\" y=\"196\" xlink:href=\"#r0\"/><use x=\"76\" y=\"196\" xlink:href=\"#r0\"/><use x=\"92\" y=\"196\" xlink:href=\"#r0\"/><use x=\"124\" y=\"196\" xlink:href=\"#r0\"/><use x=\"132\" y=\"196\" xlink:href=\"#r0\"/><use x=\"172\" y=\"196\" xlink:href=\"#r0\"/><use x=\"204\" y=\"196\" xlink:href=\"#r0\"/><use x=\"212\" y=\"196\" xlink:href=\"#r0\"/><use x=\"220\" y=\"196\" xlink:href=\"#r0\"/><use x=\"28\" y=\"204\" xlink:href=\"#r0\"/><use x=\"44\" y=\"204\" xlink:href=\"#r0\"/><use x=\"52\" y=\"204\" xlink:href=\"#r0\"/><use x=\"60\" y=\"204\" xlink:href=\"#r0\"/><use x=\"76\" y=\"204\" xlink:href=\"#r0\"/><use x=\"108\" y=\"204\" xlink:href=\"#r0\"/><use x=\"116\" y=\"204\" xlink:href=\"#r0\"/><use x=\"132\" y=\"204\" xlink:href=\"#r0\"/><use x=\"156\" y=\"204\" xlink:href=\"#r0\"/><use x=\"164\" y=\"204\" xlink:href=\"#r0\"/><use x=\"180\" y=\"204\" xlink:href=\"#r0\"/><use x=\"188\" y=\"204\" xlink:href=\"#r0\"/><use x=\"204\" y=\"204\" xlink:href=\"#r0\"/><use x=\"212\" y=\"204\" xlink:href=\"#r0\"/><use x=\"220\" y=\"204\" xlink:href=\"#r0\"/><use x=\"28\" y=\"212\" xlink:href=\"#r0\"/><use x=\"76\" y=\"212\" xlink:href=\"#r0\"/><use x=\"116\" y=\"212\" xlink:href=\"#r0\"/><use x=\"124\" y=\"212\" xlink:href=\"#r0\"/><use x=\"132\" y=\"212\" xlink:href=\"#r0\"/><use x=\"180\" y=\"212\" xlink:href=\"#r0\"/><use x=\"188\" y=\"212\" xlink:href=\"#r0\"/><use x=\"196\" y=\"212\" xlink:href=\"#r0\"/><use x=\"204\" y=\"212\" xlink:href=\"#r0\"/><use x=\"212\" y=\"212\" xlink:href=\"#r0\"/><use x=\"220\" y=\"212\" xlink:href=\"#r0\"/><use x=\"28\" y=\"220\" xlink:href=\"#r0\"/><use x=\"36\" y=\"220\" xlink:href=\"#r0\"/><use x=\"44\" y=\"220\" xlink:href=\"#r0\"/><use x=\"52\" y=\"220\" xlink:href=\"#r0\"/><use x=\"60\" y=\"220\" xlink:href=\"#r0\"/><use x=\"68\" y=\"220\" xlink:href=\"#r0\"/><use x=\"76\" y=\"220\" xlink:href=\"#r0\"/><use x=\"92\" y=\"220\" xlink:href=\"#r0\"/><use x=\"100\" y=\"220\" xlink:href=\"#r0\"/><use x=\"108\" y=\"220\" xlink:href=\"#r0\"/><use x=\"116\" y=\"220\" xlink:href=\"#r0\"/><use x=\"124\" y=\"220\" xlink:href=\"#r0\"/><use x=\"132\" y=\"220\" xlink:href=\"#r0\"/><use x=\"156\" y=\"220\" xlink:href=\"#r0\"/><use x=\"188\" y=\"220\" xlink:href=\"#r0\"/><use x=\"196\" y=\"220\" xlink:href=\"#r0\"/><use x=\"220\" y=\"220\" xlink:href=\"#r0\"/></svg>\n",
+        "is_public": false,
+        "weather": {
+            "name": "Weather",
+            "display_class": "weather",
+            "latitude": 38.904969999999999,
+            "longitude": -77.039659999999998,
+            "unit": "auto",
+            "success": true,
+            "currentWeather": {
+                "timestamp": 1520445600000,
+                "icon": "partly-cloudy-day",
+                "label": "Mostly Cloudy",
+                "temperature": 41,
+                "units": "auto"
+            },
+            "weather": [{
+                "timestamp": 1520449200000,
+                "icon": "partly-cloudy-day",
+                "label": "Mostly Cloudy",
+                "temperature": 44,
+                "units": "auto"
+            }, {
+                "timestamp": 1520452800000,
+                "icon": "partly-cloudy-day",
+                "label": "Mostly Cloudy",
+                "temperature": 47,
+                "units": "auto"
+            }, {
+                "timestamp": 1520456400000,
+                "icon": "partly-cloudy-day",
+                "label": "Mostly Cloudy",
+                "temperature": 49,
+                "units": "auto"
+            }]
+        },
+        "ibeacon_uuids": [
+            "2F234454-CF6D-4A0F-ADF2-F4911BA9FFA6",
+            "BE46CC9C-B08B-464C-B80E-61CCA71B05FA"
+        ],
+        "timezone_offset": "-05:00"
+    }
+}

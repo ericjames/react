@@ -1,0 +1,134 @@
+@value dark: #223B47;
+
+@value light: #F7F7F9;
+
+@value tsgreen: #7FEC60;
+
+@value tsblue: #2AA7DD;
+
+@value tsgray: #D0D2D3;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: tsgray;
+    font-family: "GTPressuraMono", "Monaco", "Courier", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {}
+
+.Header {
+    text-align: center;
+    background: dark;
+    color: light;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+}
+
+.Header .title {
+    position: absolute;
+    left: 0.5em;
+    padding: 0.5em;
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0.5em;
+    color: #555;
+}
+
+.caption.footer {
+    padding: 5em;
+}
+
+.logo {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-top: 0.2em;
+}
+
+.BlockList {
+    padding-bottom: 200px;
+}
+
+h2 {
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+.Block {
+    overflow: hidden;
+    border-top: 1px solid tsgray;
+    background: light;
+    transition: height linear 0.5s;
+}
+
+.Block.collapsed {
+    opacity: 0.2;
+    border-color: #888;
+}
+
+.Block ol {
+    padding: 0.5em;
+    list-style: none;
+    display: table;
+}
+
+.Block li {
+    display: table-row;
+}
+
+.Block div {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.Block .Cell--Route {
+    width: 15%;
+}
+
+.Block .Cell--Destination {
+    width: 80%;
+    font-family: National;
+}
+
+.Block .Cell--Prediction {
+    width: 15%;
+    min-width: 6em;
+}
+
+.predictions {
+    font-size: 1.2em;
+    word-spacing: -0.3em;
+    font-weight: 400;
+}
+
+.label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.route-name {
+    text-align: center;
+    display: inline-block;
+    padding: 0.2em 0.4em 0.2em 0.4em;
+    border-radius: 2em;
+    background: #ccc;
+}
