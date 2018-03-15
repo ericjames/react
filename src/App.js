@@ -34,7 +34,7 @@ class App extends Component {
         this.fetchData(_userLat, _userLng);
     }
     fetchData(lat, lng) {
-        fetch("/test.json?lat=" + lat + "&lng=" + lng)
+        fetch("/auto.json?lat=" + lat + "&lng=" + lng)
             .then(res => res.json())
             .then(
                 (result) => {
@@ -54,13 +54,13 @@ class App extends Component {
         this.setState({
             isLoaded: true,
             errorLoading: false,
-            blocks: result.blocks,
+            blocks: result.data.blocks,
         });
     }
 
-            // <Header />
-            // <header className="App-header">
-            // </header>
+    // <Header />
+    // <header className="App-header">
+    // </header>
 
     render() {
         return (
@@ -119,6 +119,8 @@ class BlockList extends Component {
                 heightSet: true
             });
         }
+        // var scrollTop = window.pageYOffset;
+        // window.scrollTo(0, scrollTop + 1);
     }
     updateHeight() {
         let newHeight = this.instance.offsetHeight;
@@ -133,8 +135,8 @@ class BlockList extends Component {
         if (blocks.length > 0) {
             let count = blocks.length;
             let blocklist = blocks.map((blockData, i) => {
-                let zindex = count - i;
-                // if (i > 5) {
+                let zindex = 1 + (count - i);
+                // if (i > 4) {
                 //     return
                 // }
                 return <Block key={blockData.id} zindex={zindex} blockData={blockData}></Block>
@@ -143,7 +145,6 @@ class BlockList extends Component {
                 <div ref={(el) => this.instance = el } className="BlockList" style={this.state.styles}>
                     <div className="caption">Nearby transit stops to you ↓</div>
                     {blocklist}
-                    <div className="caption footer">...</div>
                 </div>
             )
         }
@@ -174,13 +175,12 @@ class Block extends Component {
     componentDidMount() {
         let originalHeight = this.instance.offsetHeight;
         this.setState({
-            originalHeight: originalHeight
+            originalHeight: originalHeight,
         });
 
         window.addEventListener('touchmove', this.handleScroll);
         window.addEventListener('scroll', this.handleScroll);
 
-        this.handleScroll();
 
         // let scrollPosition = document.documentElement.scrollTop;
         // let positionTop = this.instance.getBoundingClientRect().top;
@@ -193,47 +193,58 @@ class Block extends Component {
         //     }
         // })
         let zindex = this.state.zindex;
+        let bottomBuffer = 10 + (6 * this.state.zindex);
+
         this.setState({
             styles: {
                 zIndex: zindex
-            }
-        })
-
-
-        var scrollTop = window.pageYOffset;
-        window.scrollTo(0, scrollTop + 1);
+            },
+            bottomBuffer: bottomBuffer,
+            scrollBottomLimit: this.getScrollLimit(bottomBuffer),
+        });
 
     }
     componentDidUpdate() {
 
     }
+    getScrollLimit(bottomBuffer) {
+        let viewportHeight = window.innerHeight;
+        let positionBottom = this.instance.getBoundingClientRect().bottom;
+        let eleScrollArea = viewportHeight - bottomBuffer;
+        return positionBottom - eleScrollArea
+    }
     handleScroll(e) {
+
+        let bottomBuffer = this.state.bottomBuffer;
+
         let positionTop = this.instance.getBoundingClientRect().top;
         let positionBottom = this.instance.getBoundingClientRect().bottom;
 
         // let offsetTop = this.instance.offsetTop;
         // console.log(offsetTop);
         let eleHeight = this.instance.clientHeight;
-        let viewportHeight = window.innerHeight - 50;
+        let viewportHeight = window.innerHeight;
         let isBelowFold = this.state.classNames.indexOf('belowfold') !== -1;
         let scrollPosition = document.documentElement.scrollTop;
 
+        // Window
         var body = document.body;
         var docEl = document.documentElement;
-
         var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
         var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
 
+        // Ele
         var offsetTop = scrollTop + positionTop;
         var offsetBottom = scrollTop + positionBottom;
+        var eleScrollArea = viewportHeight - bottomBuffer;
 
-        console.log(this.props.blockData.title, "Scroll Top", scrollTop, "Position Bottom", positionBottom, "Viewport", viewportHeight, "Bottomlimit", this.state.scrollBottomLimit);
+        console.log(this.props.blockData.title, "Win Scroll", scrollTop, "Scroll Limit", this.state.scrollBottomLimit, "Position Bottom", positionBottom, "Scroll Area", eleScrollArea);
 
         if (positionBottom < 80) {
             this.setState({
                 classNames: 'Block aboveview'
             });
-        } else if (positionBottom < viewportHeight - 60) {
+        } else if (positionBottom < eleScrollArea) {
             this.setState({
                 classNames: 'Block inview'
             });
@@ -243,21 +254,14 @@ class Block extends Component {
             });
         }
 
-        let increment =  6 * this.state.zindex;
-
-        if (positionBottom >= viewportHeight - increment) {
+        if (positionBottom >= eleScrollArea) {
             this.setState({
                 styles: {
                     position: 'fixed',
-                    bottom: 40 + increment,
-                    zIndex: this.state.zindex
+                    bottom: bottomBuffer,
+                    zIndex: this.state.zindex,
                 },
             });
-            if (!this.state.scrollBottomLimit) {
-                this.setState({
-                    scrollBottomLimit: scrollTop
-                });
-            }
         }
 
         if (scrollTop > this.state.scrollBottomLimit) {
@@ -266,8 +270,7 @@ class Block extends Component {
                     position: null,
                     bottom: null,
                     zIndex: this.state.zindex
-                },
-                scrollBottomLimit: null
+                }
             });
         }
 

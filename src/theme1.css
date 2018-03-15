@@ -14,7 +14,8 @@ body {
     margin: 0;
     padding: 0;
     font: 400 110%/1.2 "GTPressuraMono", "Helvetica Neue", Arial;
-    background: tsgray;
+    background: light;
+    color: dark;
 }
 
 * {
@@ -70,6 +71,7 @@ body {
 }
 
 .BlockList {
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -93,27 +95,22 @@ h2 {
 }
 
 .Block.aboveview {
-    opacity: 0.2;
     border-color: #888;
     box-shadow: 0;
     z-index: 1;
-}
-
-.Block.belowview {
-    z-index: 1;
-    box-shadow: 0;
     color: #888;
 }
 
-.Block.belowview .container {
+.Block.belowview {
 }
+
+.Block.belowview .container {}
 
 .Block .container {
     width: 96%;
     background: light;
-    margin: auto auto 4px auto;
-    box-shadow: 0 2px 5px #aaa;
-    border-bottom: 1px solid tsdarkgray;
+    margin: auto;
+    border-bottom: 1px solid tsblue;
 }
 
 .Block .placeholder {
