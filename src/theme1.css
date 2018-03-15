@@ -70,7 +70,6 @@ body {
 }
 
 .BlockList {
-    padding-bottom: 400px;
 }
 
 h2 {
@@ -107,11 +106,9 @@ h2 {
 }
 
 .Block.belowview .container {
-    width: 92%;
 }
 
 .Block .container {
-    transition: width linear 0.2s;
     width: 96%;
     background: light;
     margin: auto auto 4px auto;

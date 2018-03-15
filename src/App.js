@@ -228,7 +228,7 @@ class Block extends Component {
 
         console.log(this.props.blockData.title, "Scroll Top", scrollTop, "Position Bottom", positionBottom, "Viewport", viewportHeight, "Bottomlimit", this.state.scrollBottomLimit);
 
-        if (positionTop < 30) {
+        if (positionBottom < 80) {
             this.setState({
                 classNames: 'Block aboveview'
             });
@@ -242,11 +242,13 @@ class Block extends Component {
             });
         }
 
-        if (positionBottom >= viewportHeight) {
+        let increment =  6 * this.state.zindex;
+
+        if (positionBottom >= viewportHeight - increment) {
             this.setState({
                 styles: {
                     position: 'fixed',
-                    bottom: 40 + ( 6 * this.state.zindex ),
+                    bottom: 40 + increment,
                     zIndex: this.state.zindex
                 },
             });
