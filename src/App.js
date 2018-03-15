@@ -58,12 +58,13 @@ class App extends Component {
         });
     }
 
+            // <Header />
+            // <header className="App-header">
+            // </header>
+
     render() {
         return (
             <div className="App">
-            <header className="App-header">
-            </header>
-            <Header />
             <BlockList blocks={this.state.blocks} />
           </div>
         );
@@ -142,7 +143,7 @@ class BlockList extends Component {
                 <div ref={(el) => this.instance = el } className="BlockList" style={this.state.styles}>
                     <div className="caption">Nearby transit stops to you ↓</div>
                     {blocklist}
-                    <div className="caption footer">That's all!</div>
+                    <div className="caption footer">...</div>
                 </div>
             )
         }
