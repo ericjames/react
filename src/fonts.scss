@@ -1,0 +1,47 @@
+/*
+// _fonts.scss
+// Library of available font-faces, only establish ones we are using
+*/
+
+@font-face {
+    font-family: 'GTPressuraMono';
+    src: url("/fonts/GTPressuraMono/GTPressuraMono.eot?#iefix") format("embedded-opentype"), url("/fonts/GTPressuraMono/GTPressuraMono.woff") format("woff"), url("/fonts/GTPressuraMono/GTPressuraMono.ttf") format("truetype"), url("/fonts/GTPressuraMono/GTPressuraMono.svg#GTPressuraMono") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTPressuraMono-Bold';
+    src: url("/fonts/GTPressuraMono-Bold/GTPressuraMono-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/GTPressuraMono-Bold/GTPressuraMono-Bold.woff") format("woff"), url("/fonts/GTPressuraMono-Bold/GTPressuraMono-Bold.ttf") format("truetype"), url("/fonts/GTPressuraMono-Bold/GTPressuraMono-Bold.svg#GTPressuraMono-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'GTPressuraMono-Light';
+//     src: url("/fonts/GTPressuraMono-Light/GTPressuraMono-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/GTPressuraMono-Light/GTPressuraMono-Light.woff") format("woff"), url("/fonts/GTPressuraMono-Light/GTPressuraMono-Light.ttf") format("truetype"), url("/fonts/GTPressuraMono-Light/GTPressuraMono-Light.svg#GTPressuraMono-Light") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'National-Semibold';
+//     src: url("/fonts/National-Semibold/National-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/National-Semibold/National-Semibold.woff") format("woff"), url("/fonts/National-Semibold/National-Semibold.ttf") format("truetype"), url("/fonts/National-Semibold/National-Semibold.svg#National-Semibold") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'National-Book';
+    src: url("/fonts/National-Book/National-Book.eot?#iefix") format("embedded-opentype"), url("/fonts/National-Book/National-Book.woff") format("woff"), url("/fonts/National-Book/National-Book.ttf") format("truetype"), url("/fonts/National-Book/National-Book.svg#National-Book") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'National-Regular';
+//     src: url("/fonts/National-Regular/National-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/National-Regular/National-Regular.woff") format("woff"), url("/fonts/National-Regular/National-Regular.ttf") format("truetype"), url("/fonts/National-Regular/National-Regular.svg#National-Regular") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+

@@ -6,7 +6,7 @@
 
 @value tsblue: #2AA7DD;
 
-@value tsdarkgray: #888;
+@value tsdarkgray: #aaa;
 
 @value tsgray: #D0D2D3;
 
@@ -47,6 +47,8 @@ body {
     position: absolute;
     left: 0.5em;
     padding: 0.5em;
+    font-weight: 100;
+    font-family: "GTPressuraMono-Light";
 }
 
 .caption {
@@ -68,34 +70,57 @@ body {
 }
 
 .BlockList {
-    padding-bottom: 100px;
+    padding-bottom: 400px;
 }
 
 h2 {
     font-size: 1em;
+    font-weight: 500;
+    word-spacing: -2px;
     padding-left: 0.5em;
     padding-top: 0.5em;
 }
 
 .Block {
     overflow: hidden;
-    background: light;
-    width: 96%;
-    margin: auto auto 3px auto;
-    transition: all linear 0.5s;
-    border-top: 1px solid tsdarkgray;
+    width: 100%;
+    transition: opacity linear 0.5s;
+    z-index: 1;
+    position: relative;
 }
 
-.Block.abovefold {
+.Block.inview {
+    z-index: 100;
+}
+
+.Block.aboveview {
     opacity: 0.2;
     border-color: #888;
+    box-shadow: 0;
+    z-index: 1;
 }
 
-.Block.belowfold {
+.Block.belowview {
+    z-index: 1;
+    box-shadow: 0;
+    color: #888;
+}
+
+.Block.belowview .container {
+    width: 92%;
+}
+
+.Block .container {
+    transition: width linear 0.2s;
+    width: 96%;
+    background: light;
+    margin: auto auto 4px auto;
+    box-shadow: 0 2px 5px #aaa;
+    border-bottom: 1px solid tsdarkgray;
 }
 
 .Block .placeholder {
-    position: fixed;
+    position: absolute;
     font-size: 0.8em;
     padding-left: 1em;
     bottom: 0;
@@ -110,7 +135,7 @@ h2 {
     transition: height linear 0.5s;
 }
 
-.Block.belowfold .placeholder {
+.Block.belowview .placeholder {
     border-top: 2px solid tsgray;
     height: 20px;
 }
@@ -138,7 +163,8 @@ h2 {
 
 .Cell--Destination {
     width: 80%;
-    font-family: National, Helvetica Neue, Arial;
+    font-weight: 400;
+    font-family: "National-Book", Helvetica Neue, Arial;
 }
 
 .Cell--Prediction {

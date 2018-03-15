@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'National-Regular';
+  src: url('National-Regular.eot?#iefix') format('embedded-opentype'),  url('National-Regular.otf')  format('opentype'),
+	     url('National-Regular.woff') format('woff'), url('National-Regular.ttf')  format('truetype'), url('National-Regular.svg#National-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

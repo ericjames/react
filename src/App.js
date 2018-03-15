@@ -101,23 +101,53 @@ function Header() {
     )
 }
 
-function BlockList(props) {
-    let blocks = filterBlocks(props.blocks);
-    if (blocks.length > 0) {
-        let count = blocks.length;
-        let blocklist = blocks.map((blockData, i) => {
-            let placeholderPosition = count - i;
-            return <Block key={blockData.id} placeholderPosition={placeholderPosition} blockData={blockData}></Block>
-        })
-        return (
-            <div className="BlockList">
-                <div className="caption">Nearby transit stops to you ↓</div>
-                {blocklist}
-                <div className="caption footer">That's all!</div>
-            </div>
-        )
+class BlockList extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            styles: {},
+            heightSet: false
+        }
+        this.updateHeight = this.updateHeight.bind(this);
     }
-    return false
+    componentDidMount() {}
+    componentDidUpdate() {
+        if (!this.state.heightSet && this.instance && this.instance.offsetHeight > 0) {
+            this.updateHeight();
+            this.setState({
+                heightSet: true
+            });
+        }
+    }
+    updateHeight() {
+        let newHeight = this.instance.offsetHeight;
+        this.setState({
+            styles: {
+                height: newHeight + 'px'
+            }
+        });
+    }
+    render() {
+        let blocks = filterBlocks(this.props.blocks);
+        if (blocks.length > 0) {
+            let count = blocks.length;
+            let blocklist = blocks.map((blockData, i) => {
+                let zindex = count - i;
+                // if (i > 5) {
+                //     return
+                // }
+                return <Block key={blockData.id} zindex={zindex} blockData={blockData}></Block>
+            })
+            return (
+                <div ref={(el) => this.instance = el } className="BlockList" style={this.state.styles}>
+                    <div className="caption">Nearby transit stops to you ↓</div>
+                    {blocklist}
+                    <div className="caption footer">That's all!</div>
+                </div>
+            )
+        }
+        return false
+    }
 }
 
 function filterBlocks(blocks) {
@@ -135,6 +165,7 @@ class Block extends Component {
         super(props);
         this.state = {
             classNames: 'Block',
+            zindex: this.props.zindex
         }
         this.handleScroll = this.handleScroll.bind(this);
     }
@@ -147,26 +178,93 @@ class Block extends Component {
 
         window.addEventListener('touchmove', this.handleScroll);
         window.addEventListener('scroll', this.handleScroll);
+
+        this.handleScroll();
+
+        // let scrollPosition = document.documentElement.scrollTop;
+        // let positionTop = this.instance.getBoundingClientRect().top;
+        // let offsetTop = positionTop + scrollPosition;
+
+        // this.setState({
+        //     styles: {
+        //         position: 'absolute',
+        //         top: offsetTop
+        //     }
+        // })
+        let zindex = this.state.zindex;
+        this.setState({
+            styles: {
+                zIndex: zindex
+            }
+        })
+
+
+        var scrollTop = window.pageYOffset;
+        window.scrollTo(0, scrollTop + 1);
+
+    }
+    componentDidUpdate() {
+
     }
     handleScroll(e) {
-        let offsetTop = this.instance.getBoundingClientRect().top;
-        let offsetBottom = this.instance.getBoundingClientRect().bottom;
+        let positionTop = this.instance.getBoundingClientRect().top;
+        let positionBottom = this.instance.getBoundingClientRect().bottom;
 
         // let offsetTop = this.instance.offsetTop;
         // console.log(offsetTop);
-        let currentHeight = this.instance.clientHeight;
+        let eleHeight = this.instance.clientHeight;
+        let viewportHeight = window.innerHeight - 50;
+        let isBelowFold = this.state.classNames.indexOf('belowfold') !== -1;
+        let scrollPosition = document.documentElement.scrollTop;
 
-        if (offsetTop < 30) {
+        var body = document.body;
+        var docEl = document.documentElement;
+
+        var scrollTop = window.pageYOffset || docEl.scrollTop || body.scrollTop;
+        var scrollLeft = window.pageXOffset || docEl.scrollLeft || body.scrollLeft;
+
+        var offsetTop = scrollTop + positionTop;
+        var offsetBottom = scrollTop + positionBottom;
+
+        console.log(this.props.blockData.title, "Scroll Top", scrollTop, "Position Bottom", positionBottom, "Viewport", viewportHeight, "Bottomlimit", this.state.scrollBottomLimit);
+
+        if (positionTop < 30) {
             this.setState({
-                classNames: 'Block abovefold'
+                classNames: 'Block aboveview'
             });
-        } else if (offsetTop > 500) {
+        } else if (positionBottom < viewportHeight - 60) {
             this.setState({
-                classNames: 'Block belowfold'
+                classNames: 'Block inview'
             });
         } else {
             this.setState({
-                classNames: 'Block'
+                classNames: 'Block belowview'
+            });
+        }
+
+        if (positionBottom >= viewportHeight) {
+            this.setState({
+                styles: {
+                    position: 'fixed',
+                    bottom: 40 + ( 6 * this.state.zindex ),
+                    zIndex: this.state.zindex
+                },
+            });
+            if (!this.state.scrollBottomLimit) {
+                this.setState({
+                    scrollBottomLimit: scrollTop
+                });
+            }
+        }
+
+        if (scrollTop > this.state.scrollBottomLimit) {
+            this.setState({
+                styles: {
+                    position: null,
+                    bottom: null,
+                    zIndex: this.state.zindex
+                },
+                scrollBottomLimit: null
             });
         }
 
@@ -189,15 +287,20 @@ class Block extends Component {
                 rowList.push(<Row key={i} rowData={combined[i]}></Row>)
             };
         }
-        var bottomPosition = (this.props.placeholderPosition + 1) * 20 + 'px';
-        return <div ref={(el) => this.instance = el } style={{height: this.state.newHeight + 'px'}} className={this.state.classNames}>
-              <h2>{this.props.blockData.title}</h2>
-              <ol>
-              {rowList}
-              </ol>
-                <div className="placeholder" style={{bottom: bottomPosition}}>{this.props.blockData.title}</div>
+        return <div ref={(el) => this.instance = el } style={this.state.styles} className={this.state.classNames}>
+              <div className="container">
+                  <h2>{this.props.blockData.title}</h2>
+                  <ol>
+                  {rowList}
+                  </ol>
+              </div>
             </div>
     }
+}
+
+function Placeholder(props) {
+    var bottomPosition = (this.props.placeholderPosition + 1) * 20 + 'px';
+    return <div className="placeholder" style={{bottom: bottomPosition}}>{this.props.blockData.title}</div>
 }
 
 function Row(props) {
